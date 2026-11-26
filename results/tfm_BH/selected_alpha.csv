@@ -1,0 +1,16 @@
+dataset,windows,V,fit_sec,lora_full+wise,lora_full+wise1,lora_full+guard,lora_full+guardLF
+bizitobs_l2c/H,6,3,1592,0.0,0.5,0.0,0.0
+ett1/D,3,3,1545,0.1,0.25,0.0,0.0
+ett2/D,3,3,1537,0.25,0.0,0.0,0.0
+M_DENSE/D,3,3,1545,0.25,0.25,0.25,0.25
+LOOP_SEATTLE/D,2,3,1510,0.1,0.0,0.0,0.0
+jena_weather/D,2,3,1520,0.5,0.5,0.0,0.0
+hospital,1,3,1489,0.25,0.25,0.0,0.0
+covid_deaths,1,3,1499,0.5,0.1,0.25,0.25
+car_parts_with_missing,1,1,1492,1.0,1.0,1.0,1.0
+m4_weekly,1,3,1548,0.75,0.75,0.75,0.75
+bizitobs_service,15,3,1624,1.0,0.75,1.0,0.0
+m4_hourly,1,3,1541,0.1,0.0,0.0,0.0
+SZ_TAXI/H,2,3,1544,0.75,0.5,0.75,0.0
+kdd_cup_2018_with_missing/D,2,3,1516,0.0,0.25,0.0,0.0
+bizitobs_application,15,3,1630,0.5,0.75,0.1,0.0

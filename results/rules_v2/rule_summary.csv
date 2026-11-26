@@ -1,0 +1,16 @@
+rule,tuned,mean,median,worst,cvar10,no_worse,better,n,oracle_share
+LoRA (alpha=1),no,15.872,4.373,185.623,101.632,22,19,56,-4.279
+"+wise (argmin, no margin)",no,-1.205,0.0,29.791,17.134,47,20,56,0.325
+"+guard (m=3%, last)",no,-0.692,0.0,29.791,11.833,53,13,56,0.187
+"guard-LF (m=3%, last, HF->0)",no,-1.309,0.0,0.0,0.0,56,10,56,0.353
+"guard, m tuned [LODO mean]",LODO,-0.775,0.0,29.791,13.088,50,17,56,0.209
+"guard, m+cap tuned [LODO mean]",LODO,-0.665,0.0,29.791,11.867,50,17,56,0.179
+"guard-LF, m+cap tuned [LODO mean]",LODO,-1.347,0.0,4.264,2.153,53,13,56,0.363
+"guard, m_LF/m_HF+cap tuned [LODO mean]",LODO,-0.565,0.0,29.791,11.867,50,16,56,0.152
+"full family (m, cap, last, HF->0) [LODO mean]",LODO,-0.335,0.0,29.791,15.898,47,17,56,0.09
+"guard, m tuned [LODO mean+risk]",LODO,-0.945,0.0,29.791,11.833,53,17,56,0.255
+"guard, m+cap tuned [LODO mean+risk]",LODO,-0.794,0.0,4.906,1.801,54,7,56,0.214
+"guard-LF, m+cap tuned [LODO mean+risk]",LODO,-1.525,0.0,0.0,0.0,56,13,56,0.411
+"guard, m_LF/m_HF+cap tuned [LODO mean+risk]",LODO,-1.497,0.0,0.0,0.0,56,13,56,0.403
+"full family (m, cap, last, HF->0) [LODO mean+risk]",LODO,-0.4,0.0,22.658,4.98,54,6,56,0.108
+oracle (best alpha on test),-,-3.709,-1.222,0.0,0.0,56,30,56,1.0

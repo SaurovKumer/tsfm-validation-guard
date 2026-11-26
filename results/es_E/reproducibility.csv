@@ -1,0 +1,81 @@
+model,dataset,old,new,diff
+Chronos-2,LOOP_SEATTLE/D,3.2782,3.2782,0.0
+Chronos-2,M_DENSE/D,-9.056,-9.056,0.0
+Chronos-2,M_DENSE/H,-4.5954,-4.5954,0.0
+Chronos-2,SZ_TAXI/H,0.8297,0.8297,0.0
+Chronos-2,bitbrains_fast_storage/H,28.7545,28.7545,0.0
+Chronos-2,bitbrains_rnd/H,-28.987,-28.987,0.0
+Chronos-2,bizitobs_application,53.3199,53.3199,0.0
+Chronos-2,bizitobs_l2c/H,10.2064,10.2064,0.0
+Chronos-2,bizitobs_service,17.4631,17.4631,0.0
+Chronos-2,car_parts_with_missing,-5.859,-5.859,0.0
+Chronos-2,covid_deaths,35.4707,35.4707,0.0
+Chronos-2,electricity/15T,-0.5007,-0.5007,0.0
+Chronos-2,electricity/D,-1.6523,-1.6523,0.0
+Chronos-2,electricity/H,-1.3266,-1.3266,0.0
+Chronos-2,electricity/W,-9.1741,-9.1741,0.0
+Chronos-2,ett1/D,25.8174,25.8174,0.0
+Chronos-2,ett1/H,0.6478,0.6478,0.0
+Chronos-2,ett1/W,32.2277,32.2277,0.0
+Chronos-2,ett2/D,58.655,58.655,0.0
+Chronos-2,ett2/W,81.0629,81.0629,0.0
+Chronos-2,hierarchical_sales/D,2.4976,2.4976,0.0
+Chronos-2,hierarchical_sales/W,-1.597,-1.597,0.0
+Chronos-2,hospital,-7.6286,-7.6286,0.0
+Chronos-2,jena_weather/D,1.1219,1.1219,0.0
+Chronos-2,jena_weather/H,3.2022,3.2022,0.0
+Chronos-2,kdd_cup_2018_with_missing/D,5.8694,5.8694,0.0
+Chronos-2,kdd_cup_2018_with_missing/H,0.2444,0.2444,0.0
+Chronos-2,m4_daily,-0.3484,-0.3484,0.0
+Chronos-2,m4_hourly,11.0088,11.0088,0.0
+Chronos-2,m4_weekly,-2.0944,-2.0944,0.0
+Chronos-2,restaurant,-1.8162,-1.8162,0.0
+Chronos-2,saugeenday/D,-2.0847,-2.0847,0.0
+Chronos-2,solar/D,38.0351,38.0351,0.0
+Chronos-2,solar/W,185.6242,185.6242,0.0
+Chronos-2,us_births/D,-8.4788,-8.4788,0.0
+Chronos-2,us_births/W,-13.5258,-13.5258,0.0
+TimesFM 2.5,M_DENSE/H,-6.8668,-6.8668,0.0
+TimesFM 2.5,ett1/H,22.1005,22.1005,0.0
+TimesFM 2.5,hierarchical_sales/D,3.3284,3.3284,0.0
+TimesFM 2.5,jena_weather/H,11.8251,11.8251,0.0
+TimesFM 2.5,kdd_cup_2018_with_missing/H,1.5513,1.5513,0.0
+TimesFM 2.5,restaurant,-1.7176,-1.7176,0.0
+TimesFM 2.5,solar/D,22.2944,22.2944,0.0
+TimesFM 2.5,us_births/W,23.3268,23.3268,0.0
+Chronos-Bolt,LOOP_SEATTLE/D,4.8935,4.8935,0.0
+Chronos-Bolt,M_DENSE/D,-7.1603,-7.1603,0.0
+Chronos-Bolt,M_DENSE/H,-1.7253,-1.7253,0.0
+Chronos-Bolt,SZ_TAXI/H,3.133,3.133,0.0
+Chronos-Bolt,bitbrains_fast_storage/H,69.3648,69.3648,0.0
+Chronos-Bolt,bitbrains_rnd/H,11.7893,11.7893,0.0
+Chronos-Bolt,bizitobs_application,-67.2478,-67.2478,0.0
+Chronos-Bolt,bizitobs_l2c/H,30.6984,30.6984,0.0
+Chronos-Bolt,bizitobs_service,-68.3258,-68.3258,0.0
+Chronos-Bolt,car_parts_with_missing,952.0971,952.0971,0.0
+Chronos-Bolt,covid_deaths,176.1768,176.1768,0.0
+Chronos-Bolt,electricity/15T,0.2436,0.2436,0.0
+Chronos-Bolt,electricity/D,-2.0936,-2.0936,0.0
+Chronos-Bolt,electricity/H,1.7804,1.7804,0.0
+Chronos-Bolt,electricity/W,-7.7341,-7.7341,0.0
+Chronos-Bolt,ett1/D,25.2062,25.2062,0.0
+Chronos-Bolt,ett1/H,9.5653,9.5653,0.0
+Chronos-Bolt,ett1/W,30.0267,30.0267,0.0
+Chronos-Bolt,ett2/D,64.062,64.062,0.0
+Chronos-Bolt,ett2/W,38.7754,38.7754,0.0
+Chronos-Bolt,hierarchical_sales/D,1.8621,1.8621,0.0
+Chronos-Bolt,hierarchical_sales/W,-4.2119,-4.2119,0.0
+Chronos-Bolt,hospital,-2.0981,-2.0981,0.0
+Chronos-Bolt,jena_weather/D,17.0518,17.0518,0.0
+Chronos-Bolt,jena_weather/H,2.1978,2.1978,0.0
+Chronos-Bolt,kdd_cup_2018_with_missing/D,13.382,13.382,0.0
+Chronos-Bolt,kdd_cup_2018_with_missing/H,0.5169,0.5169,0.0
+Chronos-Bolt,m4_daily,-1.676,-1.676,0.0
+Chronos-Bolt,m4_hourly,39.8691,39.8691,0.0
+Chronos-Bolt,m4_weekly,-1.642,-1.642,0.0
+Chronos-Bolt,restaurant,-3.4816,-3.4816,0.0
+Chronos-Bolt,saugeenday/D,3.053,3.053,0.0
+Chronos-Bolt,solar/D,46.2085,46.2085,0.0
+Chronos-Bolt,solar/W,202.9625,202.9625,0.0
+Chronos-Bolt,us_births/D,-30.6108,-30.6108,0.0
+Chronos-Bolt,us_births/W,-5.7862,-5.7862,0.0

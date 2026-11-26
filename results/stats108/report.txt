@@ -1,0 +1,129 @@
+=== bootstrap (mean change %, 95% CI; % runs worse than zero-shot) ===
+
+[all] n=108
+  LoRA       +23.43 [ +8.04,+44.71]  worse  59.3% [46.3,71.3]  worst  +952.10  no-worse 44/108  better 37
+  wise        -2.37 [ -4.19, -0.73]  worse  13.0% [ 6.5,20.4]  worst   +29.79  no-worse 94/108  better 36
+  guardLF3    -1.09 [ -2.05, -0.28]  worse   1.9% [ 0.0, 4.6]  worst    +6.87  no-worse 106/108  better 15
+  A           -1.20 [ -2.18, -0.41]  worse   1.9% [ 0.0, 4.6]  worst    +6.87  no-worse 106/108  better 18
+  B           -2.57 [ -4.59, -0.96]  worse   1.9% [ 0.0, 4.6]  worst    +6.87  no-worse 106/108  better 21
+  ES          +5.35 [ -0.02,+11.62]  worse  40.7% [27.8,53.7]  worst  +176.18  no-worse 64/108  better 47
+  ESguard     -0.79 [ -1.83, -0.01]  worse   2.8% [ 0.0, 7.4]  worst   +10.25  no-worse 105/108  better 15
+  Joint       -1.26 [ -2.37, -0.33]  worse   3.7% [ 0.0, 8.3]  worst    +9.13  no-worse 104/108  better 22
+  oracle      -4.48 [ -6.76, -2.55]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 108/108  better 57
+
+[Chronos-2] n=36
+  LoRA       +13.79 [ +3.73,+26.91]  worse  47.2% [30.6,63.9]  worst  +185.62  no-worse 19/36  better 14
+  wise        -1.59 [ -4.49, +1.34]  worse  16.7% [ 5.6,30.6]  worst   +22.66  no-worse 30/36  better 13
+  guardLF3    -1.64 [ -3.05, -0.51]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 7
+  A           -1.85 [ -3.33, -0.66]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 8
+  B           -1.85 [ -3.27, -0.67]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 8
+  ES          +1.20 [ -3.53, +6.59]  worse  30.6% [16.7,47.2]  worst   +69.83  no-worse 25/36  better 17
+  ESguard     -1.03 [ -2.32, +0.15]  worse   5.6% [ 0.0,13.9]  worst   +10.25  no-worse 34/36  better 7
+  Joint       -1.65 [ -3.16, -0.30]  worse   5.6% [ 0.0,13.9]  worst    +7.17  no-worse 34/36  better 8
+  oracle      -3.72 [ -6.19, -1.73]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 16
+
+[TimesFM 2.5] n=36
+  LoRA       +13.69 [ +6.79,+22.36]  worse  72.2% [58.3,86.1]  worst  +124.39  no-worse 10/36  better 10
+  wise        -0.83 [ -2.83, +1.52]  worse   8.3% [ 0.0,19.4]  worst   +29.79  no-worse 33/36  better 11
+  guardLF3    -0.77 [ -1.68, -0.07]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 4
+  A           -0.89 [ -1.82, -0.19]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 6
+  B           -1.23 [ -2.39, -0.33]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 7
+  ES          +5.47 [ +0.48,+11.35]  worse  47.2% [30.6,63.9]  worst   +74.48  no-worse 19/36  better 15
+  ESguard     -0.36 [ -0.77, -0.03]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 3
+  Joint       -1.20 [ -2.18, -0.42]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 8
+  oracle      -3.01 [ -4.46, -1.75]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 20
+
+[Chronos-Bolt] n=36
+  LoRA       +42.81 [ +4.92,+105.18]  worse  58.3% [41.7,75.0]  worst  +952.10  no-worse 15/36  better 13
+  wise        -4.69 [-10.70, -0.01]  worse  13.9% [ 2.8,25.0]  worst   +12.26  no-worse 31/36  better 12
+  guardLF3    -0.85 [ -2.83, +0.43]  worse   5.6% [ 0.0,13.9]  worst    +6.87  no-worse 34/36  better 4
+  A           -0.85 [ -2.78, +0.44]  worse   5.6% [ 0.0,13.9]  worst    +6.87  no-worse 34/36  better 4
+  B           -4.63 [-10.67, -0.09]  worse   5.6% [ 0.0,13.9]  worst    +6.87  no-worse 34/36  better 6
+  ES          +9.38 [ -2.78,+23.42]  worse  44.4% [27.8,61.1]  worst  +176.18  no-worse 20/36  better 15
+  ESguard     -0.99 [ -3.04, +0.37]  worse   2.8% [ 0.0, 8.3]  worst    +9.13  no-worse 35/36  better 5
+  Joint       -0.93 [ -2.98, +0.51]  worse   5.6% [ 0.0,13.9]  worst    +9.13  no-worse 34/36  better 6
+  oracle      -6.72 [-13.00, -2.06]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 36/36  better 21
+
+[LF] n=69
+  LoRA       +32.97 [ +9.78,+65.61]  worse  60.9% [44.9,76.8]  worst  +952.10  no-worse 27/69  better 26
+  wise        -2.03 [ -3.85, -0.36]  worse  11.6% [ 4.3,20.3]  worst   +22.66  no-worse 61/69  better 29
+  guardLF3    -1.70 [ -3.12, -0.48]  worse   2.9% [ 0.0, 7.2]  worst    +6.87  no-worse 67/69  better 15
+  A           -1.88 [ -3.29, -0.68]  worse   2.9% [ 0.0, 7.2]  worst    +6.87  no-worse 67/69  better 18
+  B           -1.88 [ -3.31, -0.69]  worse   2.9% [ 0.0, 7.2]  worst    +6.87  no-worse 67/69  better 18
+  ES          +8.26 [ +0.74,+17.22]  worse  43.5% [27.5,60.9]  worst  +176.18  no-worse 39/69  better 34
+  ESguard     -1.24 [ -2.75, +0.02]  worse   4.3% [ 0.0,11.6]  worst   +10.25  no-worse 66/69  better 15
+  Joint       -1.97 [ -3.59, -0.58]  worse   5.8% [ 0.0,13.0]  worst    +9.13  no-worse 65/69  better 22
+  oracle      -3.58 [ -5.43, -1.96]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 69/69  better 41
+
+[HF] n=39
+  LoRA        +6.55 [ -0.03,+14.24]  worse  56.4% [38.5,74.4]  worst   +69.36  no-worse 17/39  better 11
+  wise        -2.97 [ -6.92, +0.28]  worse  15.4% [ 2.6,30.8]  worst   +29.79  no-worse 33/39  better 7
+  guardLF3    +0.00 [ +0.00, +0.00]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 39/39  better 0
+  A           +0.00 [ +0.00, +0.00]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 39/39  better 0
+  B           -3.80 [ -8.96, +0.00]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 39/39  better 3
+  ES          +0.20 [ -5.37, +6.15]  worse  35.9% [17.9,56.4]  worst   +54.07  no-worse 25/39  better 13
+  ESguard     +0.00 [ +0.00, +0.00]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 39/39  better 0
+  Joint       +0.00 [ +0.00, +0.00]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 39/39  better 0
+  oracle      -6.06 [-11.50, -1.72]  worse   0.0% [ 0.0, 0.0]  worst    +0.00  no-worse 39/39  better 16
+
+=== Wilcoxon (all 108; Holm over first six) ===
+              test  mean_diff            p       p_holm
+    A vs zero-shot  -1.198071 1.330270e-04 3.990811e-04
+    B vs zero-shot  -2.571623 2.760724e-05 1.380362e-04
++wise vs zero-shot  -2.370940 6.547869e-03 1.309574e-02
+ LoRA vs zero-shot  23.430333 3.064852e-05 1.380362e-04
+         A vs LoRA -24.628404 1.524157e-07 9.144943e-07
+        A vs +wise   1.172870 4.068624e-01 4.068624e-01
+A vs guard-LF m=3%  -0.112129 8.327349e-02          NaN
+     A vs ES+guard  -0.405097 6.050528e-01          NaN
+           A vs ES  -6.548660 1.066912e-02          NaN
+
+per model, A vs zero-shot / A vs LoRA:
+      subset           test  mean_diff        p
+   Chronos-2 A vs zero-shot  -1.854087 0.004781
+   Chronos-2      A vs LoRA -15.648865 0.009469
+   Chronos-2  A vs ES+guard  -0.825019 0.238977
+ TimesFM 2.5 A vs zero-shot  -0.891522 0.008268
+ TimesFM 2.5      A vs LoRA -14.578781 0.000130
+ TimesFM 2.5  A vs ES+guard  -0.530601 0.913586
+Chronos-Bolt A vs zero-shot  -0.848603 0.277441
+Chronos-Bolt      A vs LoRA -43.657566 0.010206
+Chronos-Bolt  A vs ES+guard   0.140329 0.672294
+          LF A vs zero-shot  -1.875241 0.000144
+          LF      A vs LoRA -34.844397 0.000001
+          LF  A vs ES+guard  -0.634065 0.564554
+          HF A vs zero-shot   0.000000      NaN
+          HF      A vs LoRA  -6.553955 0.024856
+          HF  A vs ES+guard   0.000000      NaN
+
+share of oracle gain: A 0.27, B 0.57, wise 0.53
+
+=== coverage (108 runs, test windows; nominal 0.80) ===
+          cov80  cqr_cov80    dev  cqr_dev  cov60
+at                                               
+A         0.782      0.795  0.051    0.051  0.580
+ES+guard  0.777      0.797  0.057    0.053  0.576
+a=0       0.789      0.799  0.049    0.054  0.591
+a=1       0.655      0.789  0.148    0.059  0.470
+          median width80  median cqr_width80
+at                                          
+A                  0.448               0.405
+ES+guard           0.448               0.433
+a=0                0.448               0.433
+a=1                0.285               0.497
+                       cov80  cqr_cov80
+model        at                        
+Chronos-2    A         0.767      0.795
+             ES+guard  0.760      0.797
+             a=0       0.771      0.796
+             a=1       0.683      0.784
+Chronos-Bolt A         0.780      0.787
+             ES+guard  0.773      0.791
+             a=0       0.793      0.795
+             a=1       0.675      0.774
+TimesFM 2.5  A         0.800      0.802
+             ES+guard  0.798      0.803
+             a=0       0.804      0.807
+             a=1       0.606      0.810
+coverage fell > 0.05 from a=0 to a=1: 57 of 108 | rose > 0.05: 1
+CQR NaN rows: 0

@@ -1,0 +1,43 @@
+subset,test,n,n_nonzero,median_diff,mean_diff,W,p,p_holm
+all 72,A vs zero-shot,72,15,0.0,-1.3728,0.0,0.00011,0.00056
+all 72,B vs zero-shot,72,15,0.0,-1.35061,0.0,0.00011,0.00056
+all 72,+wise vs zero-shot,72,53,0.0,-1.21075,819.0,0.0234,0.0468
+all 72,LoRA vs zero-shot,72,72,3.24018,13.74102,667.0,0.00028,0.00085
+all 72,A vs LoRA,72,67,-3.24018,-15.11382,479.0,0.0,2e-05
+all 72,A vs +wise,72,41,0.0,-0.16205,1002.0,0.70777,0.70777
+all 72,A vs guard-LF m=3%,72,3,0.0,-0.16819,0.0,0.08328,
+Chronos-2,A vs zero-shot,36,8,0.0,-1.85408,0.0,0.00478,
+Chronos-2,B vs zero-shot,36,7,0.0,-1.48932,0.0,0.00827,
+Chronos-2,+wise vs zero-shot,36,28,-0.24769,-1.59315,198.0,0.06434,
+Chronos-2,LoRA vs zero-shot,36,36,0.73859,13.79476,231.0,0.1115,
+Chronos-2,A vs LoRA,36,32,-0.97569,-15.64884,163.0,0.00947,
+Chronos-2,A vs +wise,36,21,0.0,-0.26093,241.0,0.60087,
+Chronos-2,A vs guard-LF m=3%,36,1,0.0,-0.2119,0.0,0.31731,
+TimesFM 2.5,A vs zero-shot,36,7,0.0,-0.89152,0.0,0.00827,
+TimesFM 2.5,B vs zero-shot,36,8,0.0,-1.2119,0.0,0.00478,
+TimesFM 2.5,+wise vs zero-shot,36,25,0.0,-0.82835,221.0,0.20732,
+TimesFM 2.5,LoRA vs zero-shot,36,36,8.98564,13.68728,113.0,0.00031,
+TimesFM 2.5,A vs LoRA,36,35,-11.40782,-14.57881,89.0,0.00013,
+TimesFM 2.5,A vs +wise,36,20,0.0,-0.06317,263.0,0.97369,
+TimesFM 2.5,A vs guard-LF m=3%,36,2,0.0,-0.12448,0.0,0.15734,
+low freq.,A vs zero-shot,46,15,0.0,-2.14873,0.0,0.00012,
+low freq.,B vs zero-shot,46,14,0.0,-1.85171,0.0,0.0002,
+low freq.,+wise vs zero-shot,46,38,-0.45547,-2.18376,256.0,0.00349,
+low freq.,LoRA vs zero-shot,46,46,3.7581,16.64367,251.0,0.0012,
+low freq.,A vs LoRA,46,41,-3.7581,-18.7924,129.0,1e-05,
+low freq.,A vs +wise,46,26,0.0,0.03503,396.0,0.65177,
+low freq.,A vs guard-LF m=3%,46,3,0.0,-0.26326,0.0,0.08332,
+high freq.,A vs zero-shot,26,0,0.0,0.0,,,
+high freq.,B vs zero-shot,26,1,0.0,-0.46406,0.0,0.31731,
+high freq.,+wise vs zero-shot,26,15,0.0,0.51074,140.0,0.94717,
+high freq.,LoRA vs zero-shot,26,26,1.58176,8.60556,99.0,0.05252,
+high freq.,A vs LoRA,26,26,-1.58176,-8.60556,99.0,0.05252,
+high freq.,A vs +wise,26,15,0.0,-0.51074,140.0,0.94717,
+high freq.,A vs guard-LF m=3%,26,0,0.0,0.0,,,
+confirmation 16,A vs zero-shot,16,1,0.0,-0.8393,0.0,0.31731,
+confirmation 16,B vs zero-shot,16,1,0.0,-0.8393,0.0,0.31731,
+confirmation 16,+wise vs zero-shot,16,7,0.0,-1.23005,10.0,0.04132,
+confirmation 16,LoRA vs zero-shot,16,16,2.02444,6.28324,40.0,0.15906,
+confirmation 16,A vs LoRA,16,16,-2.02444,-7.12254,33.0,0.07391,
+confirmation 16,A vs +wise,16,6,0.0,0.39074,11.0,0.07671,
+confirmation 16,A vs guard-LF m=3%,16,0,0.0,0.0,,,

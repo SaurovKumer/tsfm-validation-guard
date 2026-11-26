@@ -1,0 +1,8 @@
+dataset,group,val_gain,test_gain,val_says_helps,misled
+bitbrains_fast_storage/H,high,-12.518367316574096,-28.754499186103466,False,False
+bitbrains_rnd/H,high,-3.297290583052992,28.98696894686693,False,False
+electricity/15T,high,1.4261979266826152,0.5007170015181917,False,False
+electricity/D,low,1.1657413899439084,1.6522547103798524,False,False
+electricity/H,high,2.016256174296416,1.326561622654776,False,False
+electricity/W,low,-6.07241045739626,9.174061671793943,False,False
+m4_daily,low,1.0311169107651286,0.34843682120911934,False,False

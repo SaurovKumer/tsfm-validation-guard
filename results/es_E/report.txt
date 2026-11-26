@@ -1,0 +1,63 @@
+Chronos-2: 3/3 parts, 36 configurations
+TimesFM 2.5: 3/3 parts, 36 configurations
+Chronos-Bolt: 3/3 parts, 36 configurations
+
+=== summary (change in test MWQL vs zero-shot, %) ===
+                           n   mean  median   worst  no_worse  better
+LoRA (4000, a=1)       108.0  23.43    3.09  952.10      44.0    37.0
+ES                     108.0   5.35    0.32  176.18      64.0    47.0
+ES+guard               108.0  -0.79    0.00   10.25     105.0    15.0
+A                      108.0  -1.20    0.00    6.87     106.0    18.0
+Joint                  108.0  -1.26    0.00    9.13     104.0    22.0
+ES+guard (no HF rule)  108.0  -1.82    0.00   25.85      97.0    23.0
+Joint (no HF rule)     108.0  -2.95    0.00   17.46      98.0    31.0
+Joint (B-style HF)     108.0  -2.94    0.00    9.13     103.0    27.0
+oracle-step            108.0  -4.60   -0.67    0.00     108.0    52.0
+oracle-joint           108.0  -5.36   -1.82    0.00     108.0    63.0
+
+=== per model (mean / worst) ===
+LoRA (4000, a=1)         Chronos-2: +13.79/+185.62  Chronos-Bolt: +42.81/+952.10  TimesFM 2.5: +13.69/+124.39    LF: +32.97/+952.10  HF: +6.55/+69.36
+ES                       Chronos-2: +1.20/+69.83  Chronos-Bolt: +9.38/+176.18  TimesFM 2.5: +5.47/+74.48    LF: +8.26/+176.18  HF: +0.20/+54.07
+ES+guard                 Chronos-2: -1.03/+10.25  Chronos-Bolt: -0.99/+9.13  TimesFM 2.5: -0.36/+0.00    LF: -1.24/+10.25  HF: +0.00/+0.00
+A                        Chronos-2: -1.85/+0.00  Chronos-Bolt: -0.85/+6.87  TimesFM 2.5: -0.89/+0.00    LF: -1.88/+6.87  HF: +0.00/+0.00
+Joint                    Chronos-2: -1.65/+7.17  Chronos-Bolt: -0.93/+9.13  TimesFM 2.5: -1.20/+0.00    LF: -1.97/+9.13  HF: +0.00/+0.00
+ES+guard (no HF rule)    Chronos-2: -1.59/+17.46  Chronos-Bolt: -4.22/+21.52  TimesFM 2.5: +0.36/+25.85    LF: -1.24/+10.25  HF: -2.83/+25.85
+Joint (no HF rule)       Chronos-2: -2.19/+17.46  Chronos-Bolt: -4.98/+9.13  TimesFM 2.5: -1.68/+6.50    LF: -1.97/+9.13  HF: -4.68/+17.46
+Joint (B-style HF)       Chronos-2: -2.48/+7.17  Chronos-Bolt: -4.69/+9.13  TimesFM 2.5: -1.64/+0.00    LF: -1.97/+9.13  HF: -4.64/+2.97
+oracle-step              Chronos-2: -3.93/+0.00  Chronos-Bolt: -6.62/+0.00  TimesFM 2.5: -3.25/+0.00    LF: -3.25/+0.00  HF: -6.99/+0.00
+oracle-joint             Chronos-2: -4.50/+0.00  Chronos-Bolt: -7.45/+0.00  TimesFM 2.5: -4.12/+0.00    LF: -4.12/+0.00  HF: -7.54/+0.00
+
+=== pre-registered comparisons (§22; n = 108 runs) ===
+P1 ES worst +176.18% (need > +10), no worse 64/108 vs A 106/108: SUPPORTED
+P2 mean A -1.198 vs ES+guard -0.793 (diff -0.405 pp); Holm p(A<ESg) 0.4163, p(ESg<A) 0.8543 -> equivalent
+P3 Joint mean -1.260 vs A -1.198; worst +9.13 vs +6.87; Holm p 0.4163 -> NOT SUPPORTED
+
+=== secondary ===
+Bolt rule-A failures under each method:
+                     dataset    A  ES+guard  Joint     ES
+               covid_deaths 4.85      0.00   5.31 176.18
+kdd_cup_2018_with_missing/D 6.87      9.13   9.13   9.13
+
+selected step (share of runs):
+ step      500   1000  2000  4000
+method                          
+A         0.00  0.00  0.00  1.00
+ES        0.57  0.17  0.11  0.15
+ES+guard  0.08  0.01  0.03  0.88
+Joint     0.11  0.01  0.03  0.85
+
+coverage at the selected point (mean test cov80 raw / CQR):
+           test_cov80  test_cqr_cov80
+method                              
+A              0.782           0.795
+ES             0.713           0.792
+ES+guard       0.777           0.797
+Joint          0.776           0.794
+
+compute: evaluation of the final alpha curve 5.70 h, extra checkpoints 11.31 h (all runs)
+
+reproducibility of LoRA (a=1) change vs earlier runs (pp): median |diff| per model
+ model
+Chronos-2       0.0
+Chronos-Bolt    0.0
+TimesFM 2.5     0.0

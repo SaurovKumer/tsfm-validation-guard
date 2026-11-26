@@ -1,0 +1,1081 @@
+model,dataset,method,step,alpha,change,test_cov80,test_cqr_cov80
+Chronos-2,LOOP_SEATTLE/D,"LoRA (4000, a=1)",4000,1.0,3.2782,0.586,0.6397
+Chronos-2,LOOP_SEATTLE/D,ES,500,1.0,2.2294,0.5734,0.6464
+Chronos-2,LOOP_SEATTLE/D,ES+guard,4000,0.0,0.0,0.6546,0.6493
+Chronos-2,LOOP_SEATTLE/D,A,4000,0.0,0.0,0.6546,0.6493
+Chronos-2,LOOP_SEATTLE/D,Joint,4000,0.0,0.0,0.6546,0.6493
+Chronos-2,LOOP_SEATTLE/D,ES+guard (no HF rule),4000,0.0,0.0,0.6546,0.6493
+Chronos-2,LOOP_SEATTLE/D,Joint (no HF rule),4000,0.0,0.0,0.6546,0.6493
+Chronos-2,LOOP_SEATTLE/D,Joint (B-style HF),4000,0.0,0.0,0.6546,0.6493
+Chronos-2,LOOP_SEATTLE/D,oracle-step,4000,0.0,0.0,0.6546,0.6493
+Chronos-2,LOOP_SEATTLE/D,oracle-joint,4000,0.0,0.0,0.6546,0.6493
+Chronos-2,M_DENSE/D,"LoRA (4000, a=1)",4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/D,ES,4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/D,ES+guard,4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/D,A,4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/D,Joint,4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/D,ES+guard (no HF rule),4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/D,Joint (no HF rule),4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/D,Joint (B-style HF),4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/D,oracle-step,4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/D,oracle-joint,4000,1.0,-9.056,0.7033,0.7978
+Chronos-2,M_DENSE/H,"LoRA (4000, a=1)",4000,1.0,-4.5954,0.704,0.7454
+Chronos-2,M_DENSE/H,ES,500,1.0,-0.9879,0.6939,0.7234
+Chronos-2,M_DENSE/H,ES+guard,4000,0.0,0.0,0.6744,0.717
+Chronos-2,M_DENSE/H,A,4000,0.0,0.0,0.6744,0.717
+Chronos-2,M_DENSE/H,Joint,4000,0.0,0.0,0.6744,0.717
+Chronos-2,M_DENSE/H,ES+guard (no HF rule),4000,0.0,0.0,0.6744,0.717
+Chronos-2,M_DENSE/H,Joint (no HF rule),4000,0.0,0.0,0.6744,0.717
+Chronos-2,M_DENSE/H,Joint (B-style HF),4000,0.0,0.0,0.6744,0.717
+Chronos-2,M_DENSE/H,oracle-step,4000,1.0,-4.5954,0.704,0.7454
+Chronos-2,M_DENSE/H,oracle-joint,4000,1.0,-4.5954,0.704,0.7454
+Chronos-2,SZ_TAXI/H,"LoRA (4000, a=1)",4000,1.0,0.8297,0.7476,0.7509
+Chronos-2,SZ_TAXI/H,ES,500,1.0,0.4973,0.7627,0.7423
+Chronos-2,SZ_TAXI/H,ES+guard,4000,0.0,0.0,0.7634,0.7391
+Chronos-2,SZ_TAXI/H,A,4000,0.0,0.0,0.7634,0.7391
+Chronos-2,SZ_TAXI/H,Joint,4000,0.0,0.0,0.7634,0.7391
+Chronos-2,SZ_TAXI/H,ES+guard (no HF rule),4000,0.0,0.0,0.7634,0.7391
+Chronos-2,SZ_TAXI/H,Joint (no HF rule),4000,0.5,-0.6971,0.7455,0.7392
+Chronos-2,SZ_TAXI/H,Joint (B-style HF),4000,0.0,0.0,0.7634,0.7391
+Chronos-2,SZ_TAXI/H,oracle-step,4000,0.0,0.0,0.7634,0.7391
+Chronos-2,SZ_TAXI/H,oracle-joint,500,0.5,-0.8452,0.7648,0.7407
+Chronos-2,bitbrains_fast_storage/H,"LoRA (4000, a=1)",4000,1.0,28.7545,0.7834,0.805
+Chronos-2,bitbrains_fast_storage/H,ES,500,1.0,-5.8418,0.8241,0.8119
+Chronos-2,bitbrains_fast_storage/H,ES+guard,4000,0.0,0.0,0.8002,0.8097
+Chronos-2,bitbrains_fast_storage/H,A,4000,0.0,0.0,0.8002,0.8097
+Chronos-2,bitbrains_fast_storage/H,Joint,4000,0.0,0.0,0.8002,0.8097
+Chronos-2,bitbrains_fast_storage/H,ES+guard (no HF rule),500,1.0,-5.8418,0.8241,0.8119
+Chronos-2,bitbrains_fast_storage/H,Joint (no HF rule),500,1.0,-5.8418,0.8241,0.8119
+Chronos-2,bitbrains_fast_storage/H,Joint (B-style HF),4000,0.0,0.0,0.8002,0.8097
+Chronos-2,bitbrains_fast_storage/H,oracle-step,500,1.0,-5.8418,0.8241,0.8119
+Chronos-2,bitbrains_fast_storage/H,oracle-joint,500,1.0,-5.8418,0.8241,0.8119
+Chronos-2,bitbrains_rnd/H,"LoRA (4000, a=1)",4000,1.0,-28.987,0.7249,0.7729
+Chronos-2,bitbrains_rnd/H,ES,1000,1.0,-42.2537,0.7425,0.7716
+Chronos-2,bitbrains_rnd/H,ES+guard,4000,0.0,0.0,0.7354,0.7737
+Chronos-2,bitbrains_rnd/H,A,4000,0.0,0.0,0.7354,0.7737
+Chronos-2,bitbrains_rnd/H,Joint,4000,0.0,0.0,0.7354,0.7737
+Chronos-2,bitbrains_rnd/H,ES+guard (no HF rule),500,1.0,-40.4429,0.7354,0.773
+Chronos-2,bitbrains_rnd/H,Joint (no HF rule),500,1.0,-40.4429,0.7354,0.773
+Chronos-2,bitbrains_rnd/H,Joint (B-style HF),500,0.5,-29.6984,0.7335,0.7724
+Chronos-2,bitbrains_rnd/H,oracle-step,1000,1.0,-42.2537,0.7425,0.7716
+Chronos-2,bitbrains_rnd/H,oracle-joint,1000,1.0,-42.2537,0.7425,0.7716
+Chronos-2,bizitobs_application,"LoRA (4000, a=1)",4000,1.0,53.3199,0.5439,0.6972
+Chronos-2,bizitobs_application,ES,1000,1.0,17.4205,0.6517,0.7661
+Chronos-2,bizitobs_application,ES+guard,4000,0.0,0.0,0.7167,0.7572
+Chronos-2,bizitobs_application,A,4000,0.0,0.0,0.7167,0.7572
+Chronos-2,bizitobs_application,Joint,4000,0.0,0.0,0.7167,0.7572
+Chronos-2,bizitobs_application,ES+guard (no HF rule),4000,0.0,0.0,0.7167,0.7572
+Chronos-2,bizitobs_application,Joint (no HF rule),4000,0.0,0.0,0.7167,0.7572
+Chronos-2,bizitobs_application,Joint (B-style HF),4000,0.0,0.0,0.7167,0.7572
+Chronos-2,bizitobs_application,oracle-step,4000,0.0,0.0,0.7167,0.7572
+Chronos-2,bizitobs_application,oracle-joint,4000,0.0,0.0,0.7167,0.7572
+Chronos-2,bizitobs_l2c/H,"LoRA (4000, a=1)",4000,1.0,10.2064,0.7039,0.8666
+Chronos-2,bizitobs_l2c/H,ES,2000,1.0,6.8224,0.7138,0.8656
+Chronos-2,bizitobs_l2c/H,ES+guard,4000,0.0,0.0,0.7604,0.881
+Chronos-2,bizitobs_l2c/H,A,4000,0.0,0.0,0.7604,0.881
+Chronos-2,bizitobs_l2c/H,Joint,4000,0.0,0.0,0.7604,0.881
+Chronos-2,bizitobs_l2c/H,ES+guard (no HF rule),4000,0.0,0.0,0.7604,0.881
+Chronos-2,bizitobs_l2c/H,Joint (no HF rule),1000,0.5,1.2496,0.686,0.8745
+Chronos-2,bizitobs_l2c/H,Joint (B-style HF),4000,0.0,0.0,0.7604,0.881
+Chronos-2,bizitobs_l2c/H,oracle-step,4000,0.0,0.0,0.7604,0.881
+Chronos-2,bizitobs_l2c/H,oracle-joint,500,0.25,-0.2728,0.7371,0.8834
+Chronos-2,bizitobs_service,"LoRA (4000, a=1)",4000,1.0,17.4631,0.6501,0.7766
+Chronos-2,bizitobs_service,ES,4000,1.0,17.4631,0.6501,0.7766
+Chronos-2,bizitobs_service,ES+guard,4000,0.0,0.0,0.7264,0.7853
+Chronos-2,bizitobs_service,A,4000,0.0,0.0,0.7264,0.7853
+Chronos-2,bizitobs_service,Joint,4000,0.0,0.0,0.7264,0.7853
+Chronos-2,bizitobs_service,ES+guard (no HF rule),4000,1.0,17.4631,0.6501,0.7766
+Chronos-2,bizitobs_service,Joint (no HF rule),4000,1.0,17.4631,0.6501,0.7766
+Chronos-2,bizitobs_service,Joint (B-style HF),4000,0.0,0.0,0.7264,0.7853
+Chronos-2,bizitobs_service,oracle-step,4000,0.0,0.0,0.7264,0.7853
+Chronos-2,bizitobs_service,oracle-joint,4000,0.0,0.0,0.7264,0.7853
+Chronos-2,car_parts_with_missing,"LoRA (4000, a=1)",4000,1.0,-5.859,0.7963,0.7946
+Chronos-2,car_parts_with_missing,ES,4000,1.0,-5.859,0.7963,0.7946
+Chronos-2,car_parts_with_missing,ES+guard,4000,1.0,-5.859,0.7963,0.7946
+Chronos-2,car_parts_with_missing,A,4000,1.0,-5.859,0.7963,0.7946
+Chronos-2,car_parts_with_missing,Joint,4000,1.0,-5.859,0.7963,0.7946
+Chronos-2,car_parts_with_missing,ES+guard (no HF rule),4000,1.0,-5.859,0.7963,0.7946
+Chronos-2,car_parts_with_missing,Joint (no HF rule),4000,1.0,-5.859,0.7963,0.7946
+Chronos-2,car_parts_with_missing,Joint (B-style HF),4000,1.0,-5.859,0.7963,0.7946
+Chronos-2,car_parts_with_missing,oracle-step,1000,1.0,-6.0219,0.7793,0.7907
+Chronos-2,car_parts_with_missing,oracle-joint,1000,1.0,-6.0219,0.7793,0.7907
+Chronos-2,covid_deaths,"LoRA (4000, a=1)",4000,1.0,35.4707,0.7692,0.807
+Chronos-2,covid_deaths,ES,500,1.0,-8.2824,0.7504,0.8287
+Chronos-2,covid_deaths,ES+guard,4000,0.0,0.0,0.7698,0.8654
+Chronos-2,covid_deaths,A,4000,0.25,-17.0294,0.806,0.8664
+Chronos-2,covid_deaths,Joint,4000,0.25,-17.0294,0.806,0.8664
+Chronos-2,covid_deaths,ES+guard (no HF rule),4000,0.0,0.0,0.7698,0.8654
+Chronos-2,covid_deaths,Joint (no HF rule),4000,0.25,-17.0294,0.806,0.8664
+Chronos-2,covid_deaths,Joint (B-style HF),4000,0.25,-17.0294,0.806,0.8664
+Chronos-2,covid_deaths,oracle-step,500,1.0,-8.2824,0.7504,0.8287
+Chronos-2,covid_deaths,oracle-joint,4000,0.5,-25.367,0.7555,0.8531
+Chronos-2,electricity/15T,"LoRA (4000, a=1)",4000,1.0,-0.5007,0.7054,0.7358
+Chronos-2,electricity/15T,ES,4000,1.0,-0.5007,0.7054,0.7358
+Chronos-2,electricity/15T,ES+guard,4000,0.0,0.0,0.7113,0.7369
+Chronos-2,electricity/15T,A,4000,0.0,0.0,0.7113,0.7369
+Chronos-2,electricity/15T,Joint,4000,0.0,0.0,0.7113,0.7369
+Chronos-2,electricity/15T,ES+guard (no HF rule),4000,0.0,0.0,0.7113,0.7369
+Chronos-2,electricity/15T,Joint (no HF rule),4000,0.0,0.0,0.7113,0.7369
+Chronos-2,electricity/15T,Joint (B-style HF),4000,0.0,0.0,0.7113,0.7369
+Chronos-2,electricity/15T,oracle-step,2000,1.0,-0.5884,0.7039,0.7361
+Chronos-2,electricity/15T,oracle-joint,2000,1.0,-0.5884,0.7039,0.7361
+Chronos-2,electricity/D,"LoRA (4000, a=1)",4000,1.0,-1.6523,0.7641,0.7645
+Chronos-2,electricity/D,ES,2000,1.0,-1.5377,0.769,0.7655
+Chronos-2,electricity/D,ES+guard,4000,0.0,0.0,0.7646,0.7697
+Chronos-2,electricity/D,A,4000,0.0,0.0,0.7646,0.7697
+Chronos-2,electricity/D,Joint,4000,0.0,0.0,0.7646,0.7697
+Chronos-2,electricity/D,ES+guard (no HF rule),4000,0.0,0.0,0.7646,0.7697
+Chronos-2,electricity/D,Joint (no HF rule),4000,0.0,0.0,0.7646,0.7697
+Chronos-2,electricity/D,Joint (B-style HF),4000,0.0,0.0,0.7646,0.7697
+Chronos-2,electricity/D,oracle-step,4000,1.0,-1.6523,0.7641,0.7645
+Chronos-2,electricity/D,oracle-joint,4000,1.0,-1.6523,0.7641,0.7645
+Chronos-2,electricity/H,"LoRA (4000, a=1)",4000,1.0,-1.3266,0.7342,0.7548
+Chronos-2,electricity/H,ES,4000,1.0,-1.3266,0.7342,0.7548
+Chronos-2,electricity/H,ES+guard,4000,0.0,0.0,0.7424,0.7547
+Chronos-2,electricity/H,A,4000,0.0,0.0,0.7424,0.7547
+Chronos-2,electricity/H,Joint,4000,0.0,0.0,0.7424,0.7547
+Chronos-2,electricity/H,ES+guard (no HF rule),4000,1.0,-1.3266,0.7342,0.7548
+Chronos-2,electricity/H,Joint (no HF rule),4000,1.0,-1.3266,0.7342,0.7548
+Chronos-2,electricity/H,Joint (B-style HF),4000,0.0,0.0,0.7424,0.7547
+Chronos-2,electricity/H,oracle-step,4000,1.0,-1.3266,0.7342,0.7548
+Chronos-2,electricity/H,oracle-joint,4000,1.0,-1.3266,0.7342,0.7548
+Chronos-2,electricity/W,"LoRA (4000, a=1)",4000,1.0,-9.1741,0.7902,0.8179
+Chronos-2,electricity/W,ES,500,1.0,-11.925,0.7818,0.8083
+Chronos-2,electricity/W,ES+guard,4000,0.0,0.0,0.7632,0.7751
+Chronos-2,electricity/W,A,4000,0.0,0.0,0.7632,0.7751
+Chronos-2,electricity/W,Joint,4000,0.0,0.0,0.7632,0.7751
+Chronos-2,electricity/W,ES+guard (no HF rule),4000,0.0,0.0,0.7632,0.7751
+Chronos-2,electricity/W,Joint (no HF rule),4000,0.0,0.0,0.7632,0.7751
+Chronos-2,electricity/W,Joint (B-style HF),4000,0.0,0.0,0.7632,0.7751
+Chronos-2,electricity/W,oracle-step,1000,1.0,-12.7994,0.7886,0.8126
+Chronos-2,electricity/W,oracle-joint,1000,0.75,-12.8934,0.7856,0.8101
+Chronos-2,ett1/D,"LoRA (4000, a=1)",4000,1.0,25.8174,0.5302,0.773
+Chronos-2,ett1/D,ES,500,1.0,2.0005,0.7095,0.8222
+Chronos-2,ett1/D,ES+guard,4000,0.0,0.0,0.8063,0.827
+Chronos-2,ett1/D,A,4000,0.0,0.0,0.8063,0.827
+Chronos-2,ett1/D,Joint,4000,0.0,0.0,0.8063,0.827
+Chronos-2,ett1/D,ES+guard (no HF rule),4000,0.0,0.0,0.8063,0.827
+Chronos-2,ett1/D,Joint (no HF rule),4000,0.0,0.0,0.8063,0.827
+Chronos-2,ett1/D,Joint (B-style HF),4000,0.0,0.0,0.8063,0.827
+Chronos-2,ett1/D,oracle-step,4000,0.0,0.0,0.8063,0.827
+Chronos-2,ett1/D,oracle-joint,4000,0.0,0.0,0.8063,0.827
+Chronos-2,ett1/H,"LoRA (4000, a=1)",4000,1.0,0.6478,0.8167,0.7879
+Chronos-2,ett1/H,ES,500,1.0,-0.7539,0.8088,0.7906
+Chronos-2,ett1/H,ES+guard,4000,0.0,0.0,0.8013,0.7862
+Chronos-2,ett1/H,A,4000,0.0,0.0,0.8013,0.7862
+Chronos-2,ett1/H,Joint,4000,0.0,0.0,0.8013,0.7862
+Chronos-2,ett1/H,ES+guard (no HF rule),4000,0.0,0.0,0.8013,0.7862
+Chronos-2,ett1/H,Joint (no HF rule),4000,0.0,0.0,0.8013,0.7862
+Chronos-2,ett1/H,Joint (B-style HF),4000,0.0,0.0,0.8013,0.7862
+Chronos-2,ett1/H,oracle-step,500,1.0,-0.7539,0.8088,0.7906
+Chronos-2,ett1/H,oracle-joint,500,1.0,-0.7539,0.8088,0.7906
+Chronos-2,ett1/W,"LoRA (4000, a=1)",4000,1.0,32.2277,0.3661,0.7679
+Chronos-2,ett1/W,ES,500,1.0,12.8202,0.5982,0.6607
+Chronos-2,ett1/W,ES+guard,4000,0.0,0.0,0.6607,0.5714
+Chronos-2,ett1/W,A,4000,0.0,0.0,0.6607,0.5714
+Chronos-2,ett1/W,Joint,4000,0.0,0.0,0.6607,0.5714
+Chronos-2,ett1/W,ES+guard (no HF rule),4000,0.0,0.0,0.6607,0.5714
+Chronos-2,ett1/W,Joint (no HF rule),4000,0.0,0.0,0.6607,0.5714
+Chronos-2,ett1/W,Joint (B-style HF),4000,0.0,0.0,0.6607,0.5714
+Chronos-2,ett1/W,oracle-step,4000,0.0,0.0,0.6607,0.5714
+Chronos-2,ett1/W,oracle-joint,4000,0.0,0.0,0.6607,0.5714
+Chronos-2,ett2/D,"LoRA (4000, a=1)",4000,1.0,58.655,0.6317,0.8556
+Chronos-2,ett2/D,ES,500,1.0,-3.3305,0.8857,0.9587
+Chronos-2,ett2/D,ES+guard,4000,0.0,0.0,0.8873,0.9333
+Chronos-2,ett2/D,A,4000,0.0,0.0,0.8873,0.9333
+Chronos-2,ett2/D,Joint,4000,0.0,0.0,0.8873,0.9333
+Chronos-2,ett2/D,ES+guard (no HF rule),4000,0.0,0.0,0.8873,0.9333
+Chronos-2,ett2/D,Joint (no HF rule),4000,0.0,0.0,0.8873,0.9333
+Chronos-2,ett2/D,Joint (B-style HF),4000,0.0,0.0,0.8873,0.9333
+Chronos-2,ett2/D,oracle-step,500,1.0,-3.3305,0.8857,0.9587
+Chronos-2,ett2/D,oracle-joint,500,1.0,-3.3305,0.8857,0.9587
+Chronos-2,ett2/W,"LoRA (4000, a=1)",4000,1.0,81.0629,0.625,1.0
+Chronos-2,ett2/W,ES,500,1.0,10.2517,0.9018,0.9911
+Chronos-2,ett2/W,ES+guard,500,1.0,10.2517,0.9018,0.9911
+Chronos-2,ett2/W,A,4000,0.0,0.0,0.9286,0.9821
+Chronos-2,ett2/W,Joint,500,0.75,7.1663,0.9286,0.9821
+Chronos-2,ett2/W,ES+guard (no HF rule),500,1.0,10.2517,0.9018,0.9911
+Chronos-2,ett2/W,Joint (no HF rule),500,0.75,7.1663,0.9286,0.9821
+Chronos-2,ett2/W,Joint (B-style HF),500,0.75,7.1663,0.9286,0.9821
+Chronos-2,ett2/W,oracle-step,4000,0.0,0.0,0.9286,0.9821
+Chronos-2,ett2/W,oracle-joint,4000,0.0,0.0,0.9286,0.9821
+Chronos-2,hierarchical_sales/D,"LoRA (4000, a=1)",4000,1.0,2.4976,0.6492,0.7788
+Chronos-2,hierarchical_sales/D,ES,1000,1.0,0.8394,0.6654,0.781
+Chronos-2,hierarchical_sales/D,ES+guard,4000,0.0,0.0,0.7032,0.795
+Chronos-2,hierarchical_sales/D,A,4000,0.0,0.0,0.7032,0.795
+Chronos-2,hierarchical_sales/D,Joint,4000,0.0,0.0,0.7032,0.795
+Chronos-2,hierarchical_sales/D,ES+guard (no HF rule),4000,0.0,0.0,0.7032,0.795
+Chronos-2,hierarchical_sales/D,Joint (no HF rule),4000,0.0,0.0,0.7032,0.795
+Chronos-2,hierarchical_sales/D,Joint (B-style HF),4000,0.0,0.0,0.7032,0.795
+Chronos-2,hierarchical_sales/D,oracle-step,4000,0.0,0.0,0.7032,0.795
+Chronos-2,hierarchical_sales/D,oracle-joint,4000,0.0,0.0,0.7032,0.795
+Chronos-2,hierarchical_sales/W,"LoRA (4000, a=1)",4000,1.0,-1.597,0.7479,0.7805
+Chronos-2,hierarchical_sales/W,ES,1000,1.0,-2.0852,0.7497,0.7773
+Chronos-2,hierarchical_sales/W,ES+guard,4000,0.0,0.0,0.7574,0.7712
+Chronos-2,hierarchical_sales/W,A,4000,0.0,0.0,0.7574,0.7712
+Chronos-2,hierarchical_sales/W,Joint,4000,0.0,0.0,0.7574,0.7712
+Chronos-2,hierarchical_sales/W,ES+guard (no HF rule),4000,0.0,0.0,0.7574,0.7712
+Chronos-2,hierarchical_sales/W,Joint (no HF rule),4000,0.0,0.0,0.7574,0.7712
+Chronos-2,hierarchical_sales/W,Joint (B-style HF),4000,0.0,0.0,0.7574,0.7712
+Chronos-2,hierarchical_sales/W,oracle-step,1000,1.0,-2.0852,0.7497,0.7773
+Chronos-2,hierarchical_sales/W,oracle-joint,1000,1.0,-2.0852,0.7497,0.7773
+Chronos-2,hospital,"LoRA (4000, a=1)",4000,1.0,-7.6286,0.805,0.863
+Chronos-2,hospital,ES,4000,1.0,-7.6286,0.805,0.863
+Chronos-2,hospital,ES+guard,4000,1.0,-7.6286,0.805,0.863
+Chronos-2,hospital,A,4000,1.0,-7.6286,0.805,0.863
+Chronos-2,hospital,Joint,4000,1.0,-7.6286,0.805,0.863
+Chronos-2,hospital,ES+guard (no HF rule),4000,1.0,-7.6286,0.805,0.863
+Chronos-2,hospital,Joint (no HF rule),4000,1.0,-7.6286,0.805,0.863
+Chronos-2,hospital,Joint (B-style HF),4000,1.0,-7.6286,0.805,0.863
+Chronos-2,hospital,oracle-step,4000,1.0,-7.6286,0.805,0.863
+Chronos-2,hospital,oracle-joint,4000,1.0,-7.6286,0.805,0.863
+Chronos-2,jena_weather/D,"LoRA (4000, a=1)",4000,1.0,1.1219,0.7373,0.8873
+Chronos-2,jena_weather/D,ES,500,1.0,0.9718,0.7611,0.7762
+Chronos-2,jena_weather/D,ES+guard,4000,0.0,0.0,0.7373,0.7548
+Chronos-2,jena_weather/D,A,4000,0.0,0.0,0.7373,0.7548
+Chronos-2,jena_weather/D,Joint,4000,0.0,0.0,0.7373,0.7548
+Chronos-2,jena_weather/D,ES+guard (no HF rule),4000,0.0,0.0,0.7373,0.7548
+Chronos-2,jena_weather/D,Joint (no HF rule),4000,0.0,0.0,0.7373,0.7548
+Chronos-2,jena_weather/D,Joint (B-style HF),4000,0.0,0.0,0.7373,0.7548
+Chronos-2,jena_weather/D,oracle-step,4000,0.0,0.0,0.7373,0.7548
+Chronos-2,jena_weather/D,oracle-joint,4000,0.75,-1.1173,0.7492,0.8444
+Chronos-2,jena_weather/H,"LoRA (4000, a=1)",4000,1.0,3.2022,0.6979,0.784
+Chronos-2,jena_weather/H,ES,500,1.0,0.863,0.7131,0.793
+Chronos-2,jena_weather/H,ES+guard,4000,0.0,0.0,0.725,0.7791
+Chronos-2,jena_weather/H,A,4000,0.0,0.0,0.725,0.7791
+Chronos-2,jena_weather/H,Joint,4000,0.0,0.0,0.725,0.7791
+Chronos-2,jena_weather/H,ES+guard (no HF rule),4000,0.0,0.0,0.725,0.7791
+Chronos-2,jena_weather/H,Joint (no HF rule),4000,0.0,0.0,0.725,0.7791
+Chronos-2,jena_weather/H,Joint (B-style HF),4000,0.0,0.0,0.725,0.7791
+Chronos-2,jena_weather/H,oracle-step,4000,0.0,0.0,0.725,0.7791
+Chronos-2,jena_weather/H,oracle-joint,4000,0.0,0.0,0.725,0.7791
+Chronos-2,kdd_cup_2018_with_missing/D,"LoRA (4000, a=1)",4000,1.0,5.8694,0.7092,0.7483
+Chronos-2,kdd_cup_2018_with_missing/D,ES,500,1.0,2.1754,0.7383,0.7714
+Chronos-2,kdd_cup_2018_with_missing/D,ES+guard,500,1.0,2.1754,0.7383,0.7714
+Chronos-2,kdd_cup_2018_with_missing/D,A,4000,0.0,0.0,0.7981,0.8035
+Chronos-2,kdd_cup_2018_with_missing/D,Joint,500,1.0,2.1754,0.7383,0.7714
+Chronos-2,kdd_cup_2018_with_missing/D,ES+guard (no HF rule),500,1.0,2.1754,0.7383,0.7714
+Chronos-2,kdd_cup_2018_with_missing/D,Joint (no HF rule),500,1.0,2.1754,0.7383,0.7714
+Chronos-2,kdd_cup_2018_with_missing/D,Joint (B-style HF),500,1.0,2.1754,0.7383,0.7714
+Chronos-2,kdd_cup_2018_with_missing/D,oracle-step,4000,0.0,0.0,0.7981,0.8035
+Chronos-2,kdd_cup_2018_with_missing/D,oracle-joint,4000,0.0,0.0,0.7981,0.8035
+Chronos-2,kdd_cup_2018_with_missing/H,"LoRA (4000, a=1)",4000,1.0,0.2444,0.7486,0.8786
+Chronos-2,kdd_cup_2018_with_missing/H,ES,500,1.0,-0.3298,0.7499,0.8633
+Chronos-2,kdd_cup_2018_with_missing/H,ES+guard,4000,0.0,0.0,0.7449,0.8556
+Chronos-2,kdd_cup_2018_with_missing/H,A,4000,0.0,0.0,0.7449,0.8556
+Chronos-2,kdd_cup_2018_with_missing/H,Joint,4000,0.0,0.0,0.7449,0.8556
+Chronos-2,kdd_cup_2018_with_missing/H,ES+guard (no HF rule),4000,0.0,0.0,0.7449,0.8556
+Chronos-2,kdd_cup_2018_with_missing/H,Joint (no HF rule),4000,0.0,0.0,0.7449,0.8556
+Chronos-2,kdd_cup_2018_with_missing/H,Joint (B-style HF),4000,0.0,0.0,0.7449,0.8556
+Chronos-2,kdd_cup_2018_with_missing/H,oracle-step,1000,1.0,-0.4056,0.7521,0.8689
+Chronos-2,kdd_cup_2018_with_missing/H,oracle-joint,1000,1.0,-0.4056,0.7521,0.8689
+Chronos-2,m4_daily,"LoRA (4000, a=1)",4000,1.0,-0.3484,0.7207,0.755
+Chronos-2,m4_daily,ES,1000,1.0,-1.8319,0.7296,0.7613
+Chronos-2,m4_daily,ES+guard,4000,0.0,0.0,0.7095,0.757
+Chronos-2,m4_daily,A,4000,0.0,0.0,0.7095,0.757
+Chronos-2,m4_daily,Joint,4000,0.0,0.0,0.7095,0.757
+Chronos-2,m4_daily,ES+guard (no HF rule),4000,0.0,0.0,0.7095,0.757
+Chronos-2,m4_daily,Joint (no HF rule),4000,0.0,0.0,0.7095,0.757
+Chronos-2,m4_daily,Joint (B-style HF),4000,0.0,0.0,0.7095,0.757
+Chronos-2,m4_daily,oracle-step,1000,1.0,-1.8319,0.7296,0.7613
+Chronos-2,m4_daily,oracle-joint,1000,1.0,-1.8319,0.7296,0.7613
+Chronos-2,m4_hourly,"LoRA (4000, a=1)",4000,1.0,11.0088,0.7512,0.8022
+Chronos-2,m4_hourly,ES,2000,1.0,10.0516,0.757,0.803
+Chronos-2,m4_hourly,ES+guard,4000,0.0,0.0,0.7422,0.8096
+Chronos-2,m4_hourly,A,4000,0.0,0.0,0.7422,0.8096
+Chronos-2,m4_hourly,Joint,4000,0.0,0.0,0.7422,0.8096
+Chronos-2,m4_hourly,ES+guard (no HF rule),2000,1.0,10.0516,0.757,0.803
+Chronos-2,m4_hourly,Joint (no HF rule),2000,1.0,10.0516,0.757,0.803
+Chronos-2,m4_hourly,Joint (B-style HF),4000,0.0,0.0,0.7422,0.8096
+Chronos-2,m4_hourly,oracle-step,4000,0.0,0.0,0.7422,0.8096
+Chronos-2,m4_hourly,oracle-joint,4000,0.0,0.0,0.7422,0.8096
+Chronos-2,m4_weekly,"LoRA (4000, a=1)",4000,1.0,-2.0944,0.8007,0.8095
+Chronos-2,m4_weekly,ES,1000,1.0,-1.6341,0.7941,0.8127
+Chronos-2,m4_weekly,ES+guard,1000,1.0,-1.6341,0.7941,0.8127
+Chronos-2,m4_weekly,A,4000,1.0,-2.0944,0.8007,0.8095
+Chronos-2,m4_weekly,Joint,1000,1.0,-1.6341,0.7941,0.8127
+Chronos-2,m4_weekly,ES+guard (no HF rule),1000,1.0,-1.6341,0.7941,0.8127
+Chronos-2,m4_weekly,Joint (no HF rule),1000,1.0,-1.6341,0.7941,0.8127
+Chronos-2,m4_weekly,Joint (B-style HF),1000,1.0,-1.6341,0.7941,0.8127
+Chronos-2,m4_weekly,oracle-step,4000,1.0,-2.0944,0.8007,0.8095
+Chronos-2,m4_weekly,oracle-joint,4000,1.0,-2.0944,0.8007,0.8095
+Chronos-2,restaurant,"LoRA (4000, a=1)",4000,1.0,-1.8162,0.7938,0.7926
+Chronos-2,restaurant,ES,500,1.0,-1.6226,0.7921,0.791
+Chronos-2,restaurant,ES+guard,4000,0.0,0.0,0.8024,0.784
+Chronos-2,restaurant,A,4000,0.0,0.0,0.8024,0.784
+Chronos-2,restaurant,Joint,4000,0.0,0.0,0.8024,0.784
+Chronos-2,restaurant,ES+guard (no HF rule),4000,0.0,0.0,0.8024,0.784
+Chronos-2,restaurant,Joint (no HF rule),4000,0.0,0.0,0.8024,0.784
+Chronos-2,restaurant,Joint (B-style HF),4000,0.0,0.0,0.8024,0.784
+Chronos-2,restaurant,oracle-step,4000,1.0,-1.8162,0.7938,0.7926
+Chronos-2,restaurant,oracle-joint,4000,0.75,-1.9041,0.7957,0.7893
+Chronos-2,saugeenday/D,"LoRA (4000, a=1)",4000,1.0,-2.0847,0.7217,0.835
+Chronos-2,saugeenday/D,ES,4000,1.0,-2.0847,0.7217,0.835
+Chronos-2,saugeenday/D,ES+guard,4000,1.0,-2.0847,0.7217,0.835
+Chronos-2,saugeenday/D,A,4000,0.75,-4.4316,0.7717,0.835
+Chronos-2,saugeenday/D,Joint,4000,0.75,-4.4316,0.7717,0.835
+Chronos-2,saugeenday/D,ES+guard (no HF rule),4000,1.0,-2.0847,0.7217,0.835
+Chronos-2,saugeenday/D,Joint (no HF rule),4000,0.75,-4.4316,0.7717,0.835
+Chronos-2,saugeenday/D,Joint (B-style HF),4000,0.75,-4.4316,0.7717,0.835
+Chronos-2,saugeenday/D,oracle-step,1000,1.0,-5.3494,0.7667,0.8517
+Chronos-2,saugeenday/D,oracle-joint,1000,1.0,-5.3494,0.7667,0.8517
+Chronos-2,solar/D,"LoRA (4000, a=1)",4000,1.0,38.0351,0.6547,0.7213
+Chronos-2,solar/D,ES,1000,1.0,21.1861,0.7218,0.7682
+Chronos-2,solar/D,ES+guard,4000,0.0,0.0,0.864,0.9215
+Chronos-2,solar/D,A,4000,0.0,0.0,0.864,0.9215
+Chronos-2,solar/D,Joint,4000,0.0,0.0,0.864,0.9215
+Chronos-2,solar/D,ES+guard (no HF rule),4000,0.0,0.0,0.864,0.9215
+Chronos-2,solar/D,Joint (no HF rule),4000,0.0,0.0,0.864,0.9215
+Chronos-2,solar/D,Joint (B-style HF),4000,0.0,0.0,0.864,0.9215
+Chronos-2,solar/D,oracle-step,4000,0.0,0.0,0.864,0.9215
+Chronos-2,solar/D,oracle-joint,4000,0.0,0.0,0.864,0.9215
+Chronos-2,solar/W,"LoRA (4000, a=1)",4000,1.0,185.6242,0.0137,0.365
+Chronos-2,solar/W,ES,1000,1.0,69.8331,0.3786,0.6578
+Chronos-2,solar/W,ES+guard,4000,0.0,0.0,0.9763,0.7464
+Chronos-2,solar/W,A,4000,0.0,0.0,0.9763,0.7464
+Chronos-2,solar/W,Joint,4000,0.0,0.0,0.9763,0.7464
+Chronos-2,solar/W,ES+guard (no HF rule),4000,0.0,0.0,0.9763,0.7464
+Chronos-2,solar/W,Joint (no HF rule),4000,0.0,0.0,0.9763,0.7464
+Chronos-2,solar/W,Joint (B-style HF),4000,0.0,0.0,0.9763,0.7464
+Chronos-2,solar/W,oracle-step,4000,0.0,0.0,0.9763,0.7464
+Chronos-2,solar/W,oracle-joint,4000,0.0,0.0,0.9763,0.7464
+Chronos-2,us_births/D,"LoRA (4000, a=1)",4000,1.0,-8.4788,0.7783,0.85
+Chronos-2,us_births/D,ES,2000,1.0,-9.6855,0.7883,0.8533
+Chronos-2,us_births/D,ES+guard,2000,1.0,-9.6855,0.7883,0.8533
+Chronos-2,us_births/D,A,4000,0.75,-7.2193,0.7733,0.86
+Chronos-2,us_births/D,Joint,2000,1.0,-9.6855,0.7883,0.8533
+Chronos-2,us_births/D,ES+guard (no HF rule),2000,1.0,-9.6855,0.7883,0.8533
+Chronos-2,us_births/D,Joint (no HF rule),2000,1.0,-9.6855,0.7883,0.8533
+Chronos-2,us_births/D,Joint (B-style HF),2000,1.0,-9.6855,0.7883,0.8533
+Chronos-2,us_births/D,oracle-step,2000,1.0,-9.6855,0.7883,0.8533
+Chronos-2,us_births/D,oracle-joint,2000,1.0,-9.6855,0.7883,0.8533
+Chronos-2,us_births/W,"LoRA (4000, a=1)",4000,1.0,-13.5258,0.5982,0.8661
+Chronos-2,us_births/W,ES,4000,1.0,-13.5258,0.5982,0.8661
+Chronos-2,us_births/W,ES+guard,4000,1.0,-13.5258,0.5982,0.8661
+Chronos-2,us_births/W,A,4000,0.5,-13.4288,0.6964,0.7679
+Chronos-2,us_births/W,Joint,4000,0.5,-13.4288,0.6964,0.7679
+Chronos-2,us_births/W,ES+guard (no HF rule),4000,1.0,-13.5258,0.5982,0.8661
+Chronos-2,us_births/W,Joint (no HF rule),4000,0.5,-13.4288,0.6964,0.7679
+Chronos-2,us_births/W,Joint (B-style HF),4000,0.5,-13.4288,0.6964,0.7679
+Chronos-2,us_births/W,oracle-step,2000,1.0,-13.9309,0.6161,0.8125
+Chronos-2,us_births/W,oracle-joint,4000,0.75,-15.0465,0.6339,0.75
+TimesFM 2.5,LOOP_SEATTLE/D,"LoRA (4000, a=1)",4000,1.0,10.9906,0.4812,0.6757
+TimesFM 2.5,LOOP_SEATTLE/D,ES,500,1.0,6.6909,0.565,0.6771
+TimesFM 2.5,LOOP_SEATTLE/D,ES+guard,4000,0.0,0.0,0.7206,0.7052
+TimesFM 2.5,LOOP_SEATTLE/D,A,4000,0.0,0.0,0.7206,0.7052
+TimesFM 2.5,LOOP_SEATTLE/D,Joint,4000,0.0,0.0,0.7206,0.7052
+TimesFM 2.5,LOOP_SEATTLE/D,ES+guard (no HF rule),4000,0.0,0.0,0.7206,0.7052
+TimesFM 2.5,LOOP_SEATTLE/D,Joint (no HF rule),4000,0.0,0.0,0.7206,0.7052
+TimesFM 2.5,LOOP_SEATTLE/D,Joint (B-style HF),4000,0.0,0.0,0.7206,0.7052
+TimesFM 2.5,LOOP_SEATTLE/D,oracle-step,4000,0.0,0.0,0.7206,0.7052
+TimesFM 2.5,LOOP_SEATTLE/D,oracle-joint,4000,0.0,0.0,0.7206,0.7052
+TimesFM 2.5,M_DENSE/D,"LoRA (4000, a=1)",4000,1.0,1.2929,0.6122,0.8944
+TimesFM 2.5,M_DENSE/D,ES,500,1.0,-5.7581,0.6844,0.8785
+TimesFM 2.5,M_DENSE/D,ES+guard,4000,0.0,0.0,0.8059,0.8526
+TimesFM 2.5,M_DENSE/D,A,4000,0.25,-0.9904,0.7696,0.847
+TimesFM 2.5,M_DENSE/D,Joint,500,0.25,-2.229,0.7804,0.8396
+TimesFM 2.5,M_DENSE/D,ES+guard (no HF rule),4000,0.0,0.0,0.8059,0.8526
+TimesFM 2.5,M_DENSE/D,Joint (no HF rule),500,0.25,-2.229,0.7804,0.8396
+TimesFM 2.5,M_DENSE/D,Joint (B-style HF),500,0.25,-2.229,0.7804,0.8396
+TimesFM 2.5,M_DENSE/D,oracle-step,500,1.0,-5.7581,0.6844,0.8785
+TimesFM 2.5,M_DENSE/D,oracle-joint,500,0.75,-5.9691,0.7174,0.8619
+TimesFM 2.5,M_DENSE/H,"LoRA (4000, a=1)",4000,1.0,-6.8668,0.7197,0.7775
+TimesFM 2.5,M_DENSE/H,ES,500,1.0,-2.8175,0.7462,0.7332
+TimesFM 2.5,M_DENSE/H,ES+guard,4000,0.0,0.0,0.7148,0.7154
+TimesFM 2.5,M_DENSE/H,A,4000,0.0,0.0,0.7148,0.7154
+TimesFM 2.5,M_DENSE/H,Joint,4000,0.0,0.0,0.7148,0.7154
+TimesFM 2.5,M_DENSE/H,ES+guard (no HF rule),4000,0.0,0.0,0.7148,0.7154
+TimesFM 2.5,M_DENSE/H,Joint (no HF rule),4000,0.0,0.0,0.7148,0.7154
+TimesFM 2.5,M_DENSE/H,Joint (B-style HF),4000,0.0,0.0,0.7148,0.7154
+TimesFM 2.5,M_DENSE/H,oracle-step,2000,1.0,-7.6217,0.7339,0.7595
+TimesFM 2.5,M_DENSE/H,oracle-joint,2000,1.0,-7.6217,0.7339,0.7595
+TimesFM 2.5,SZ_TAXI/H,"LoRA (4000, a=1)",4000,1.0,1.6122,0.7162,0.7553
+TimesFM 2.5,SZ_TAXI/H,ES,500,1.0,0.77,0.7583,0.7616
+TimesFM 2.5,SZ_TAXI/H,ES+guard,4000,0.0,0.0,0.7947,0.7481
+TimesFM 2.5,SZ_TAXI/H,A,4000,0.0,0.0,0.7947,0.7481
+TimesFM 2.5,SZ_TAXI/H,Joint,4000,0.0,0.0,0.7947,0.7481
+TimesFM 2.5,SZ_TAXI/H,ES+guard (no HF rule),500,1.0,0.77,0.7583,0.7616
+TimesFM 2.5,SZ_TAXI/H,Joint (no HF rule),2000,0.75,0.6113,0.7477,0.7511
+TimesFM 2.5,SZ_TAXI/H,Joint (B-style HF),4000,0.0,0.0,0.7947,0.7481
+TimesFM 2.5,SZ_TAXI/H,oracle-step,4000,0.0,0.0,0.7947,0.7481
+TimesFM 2.5,SZ_TAXI/H,oracle-joint,2000,0.25,-0.0651,0.7803,0.748
+TimesFM 2.5,bitbrains_fast_storage/H,"LoRA (4000, a=1)",4000,1.0,20.9723,0.7817,0.8353
+TimesFM 2.5,bitbrains_fast_storage/H,ES,500,1.0,21.4697,0.8259,0.8259
+TimesFM 2.5,bitbrains_fast_storage/H,ES+guard,4000,0.0,0.0,0.8238,0.8238
+TimesFM 2.5,bitbrains_fast_storage/H,A,4000,0.0,0.0,0.8238,0.8238
+TimesFM 2.5,bitbrains_fast_storage/H,Joint,4000,0.0,0.0,0.8238,0.8238
+TimesFM 2.5,bitbrains_fast_storage/H,ES+guard (no HF rule),4000,0.0,0.0,0.8238,0.8238
+TimesFM 2.5,bitbrains_fast_storage/H,Joint (no HF rule),4000,0.0,0.0,0.8238,0.8238
+TimesFM 2.5,bitbrains_fast_storage/H,Joint (B-style HF),4000,0.0,0.0,0.8238,0.8238
+TimesFM 2.5,bitbrains_fast_storage/H,oracle-step,4000,0.0,0.0,0.8238,0.8238
+TimesFM 2.5,bitbrains_fast_storage/H,oracle-joint,4000,0.0,0.0,0.8238,0.8238
+TimesFM 2.5,bitbrains_rnd/H,"LoRA (4000, a=1)",4000,1.0,-4.8354,0.7401,0.8041
+TimesFM 2.5,bitbrains_rnd/H,ES,500,1.0,-3.9395,0.787,0.787
+TimesFM 2.5,bitbrains_rnd/H,ES+guard,4000,0.0,0.0,0.7874,0.7874
+TimesFM 2.5,bitbrains_rnd/H,A,4000,0.0,0.0,0.7874,0.7874
+TimesFM 2.5,bitbrains_rnd/H,Joint,4000,0.0,0.0,0.7874,0.7874
+TimesFM 2.5,bitbrains_rnd/H,ES+guard (no HF rule),4000,0.0,0.0,0.7874,0.7874
+TimesFM 2.5,bitbrains_rnd/H,Joint (no HF rule),4000,0.0,0.0,0.7874,0.7874
+TimesFM 2.5,bitbrains_rnd/H,Joint (B-style HF),4000,0.0,0.0,0.7874,0.7874
+TimesFM 2.5,bitbrains_rnd/H,oracle-step,1000,1.0,-8.4762,0.762,0.7949
+TimesFM 2.5,bitbrains_rnd/H,oracle-joint,1000,1.0,-8.4762,0.762,0.7949
+TimesFM 2.5,bizitobs_application,"LoRA (4000, a=1)",4000,1.0,58.4224,0.4856,0.7467
+TimesFM 2.5,bizitobs_application,ES,500,1.0,22.857,0.6556,0.7233
+TimesFM 2.5,bizitobs_application,ES+guard,4000,0.0,0.0,0.7572,0.7633
+TimesFM 2.5,bizitobs_application,A,4000,0.0,0.0,0.7572,0.7633
+TimesFM 2.5,bizitobs_application,Joint,4000,0.0,0.0,0.7572,0.7633
+TimesFM 2.5,bizitobs_application,ES+guard (no HF rule),500,1.0,22.857,0.6556,0.7233
+TimesFM 2.5,bizitobs_application,Joint (no HF rule),1000,0.25,-1.7171,0.705,0.7089
+TimesFM 2.5,bizitobs_application,Joint (B-style HF),4000,0.0,0.0,0.7572,0.7633
+TimesFM 2.5,bizitobs_application,oracle-step,4000,0.0,0.0,0.7572,0.7633
+TimesFM 2.5,bizitobs_application,oracle-joint,4000,0.25,-2.7438,0.6806,0.7261
+TimesFM 2.5,bizitobs_l2c/H,"LoRA (4000, a=1)",4000,1.0,24.1793,0.2604,0.8333
+TimesFM 2.5,bizitobs_l2c/H,ES,500,1.0,19.2733,0.4712,0.8323
+TimesFM 2.5,bizitobs_l2c/H,ES+guard,4000,0.0,0.0,0.7555,0.8552
+TimesFM 2.5,bizitobs_l2c/H,A,4000,0.0,0.0,0.7555,0.8552
+TimesFM 2.5,bizitobs_l2c/H,Joint,4000,0.0,0.0,0.7555,0.8552
+TimesFM 2.5,bizitobs_l2c/H,ES+guard (no HF rule),4000,0.0,0.0,0.7555,0.8552
+TimesFM 2.5,bizitobs_l2c/H,Joint (no HF rule),4000,0.0,0.0,0.7555,0.8552
+TimesFM 2.5,bizitobs_l2c/H,Joint (B-style HF),4000,0.0,0.0,0.7555,0.8552
+TimesFM 2.5,bizitobs_l2c/H,oracle-step,4000,0.0,0.0,0.7555,0.8552
+TimesFM 2.5,bizitobs_l2c/H,oracle-joint,4000,0.0,0.0,0.7555,0.8552
+TimesFM 2.5,bizitobs_service,"LoRA (4000, a=1)",4000,1.0,29.7912,0.6629,0.7652
+TimesFM 2.5,bizitobs_service,ES,2000,1.0,25.8526,0.7011,0.7608
+TimesFM 2.5,bizitobs_service,ES+guard,4000,0.0,0.0,0.7997,0.7997
+TimesFM 2.5,bizitobs_service,A,4000,0.0,0.0,0.7997,0.7997
+TimesFM 2.5,bizitobs_service,Joint,4000,0.0,0.0,0.7997,0.7997
+TimesFM 2.5,bizitobs_service,ES+guard (no HF rule),2000,1.0,25.8526,0.7011,0.7608
+TimesFM 2.5,bizitobs_service,Joint (no HF rule),2000,0.75,6.4955,0.7248,0.7564
+TimesFM 2.5,bizitobs_service,Joint (B-style HF),2000,0.5,-3.8866,0.7566,0.7594
+TimesFM 2.5,bizitobs_service,oracle-step,4000,0.0,0.0,0.7997,0.7997
+TimesFM 2.5,bizitobs_service,oracle-joint,4000,0.25,-5.5011,0.7805,0.7805
+TimesFM 2.5,car_parts_with_missing,"LoRA (4000, a=1)",4000,1.0,-3.4849,0.7995,0.7995
+TimesFM 2.5,car_parts_with_missing,ES,2000,1.0,-3.6664,0.8246,0.8246
+TimesFM 2.5,car_parts_with_missing,ES+guard,2000,1.0,-3.6664,0.8246,0.8246
+TimesFM 2.5,car_parts_with_missing,A,4000,1.0,-3.4849,0.7995,0.7995
+TimesFM 2.5,car_parts_with_missing,Joint,2000,1.0,-3.6664,0.8246,0.8246
+TimesFM 2.5,car_parts_with_missing,ES+guard (no HF rule),2000,1.0,-3.6664,0.8246,0.8246
+TimesFM 2.5,car_parts_with_missing,Joint (no HF rule),2000,1.0,-3.6664,0.8246,0.8246
+TimesFM 2.5,car_parts_with_missing,Joint (B-style HF),2000,1.0,-3.6664,0.8246,0.8246
+TimesFM 2.5,car_parts_with_missing,oracle-step,1000,1.0,-3.7574,0.8203,0.8203
+TimesFM 2.5,car_parts_with_missing,oracle-joint,1000,1.0,-3.7574,0.8203,0.8203
+TimesFM 2.5,covid_deaths,"LoRA (4000, a=1)",4000,1.0,23.9359,0.7883,0.8367
+TimesFM 2.5,covid_deaths,ES,2000,1.0,-9.4767,0.787,0.8
+TimesFM 2.5,covid_deaths,ES+guard,4000,0.0,0.0,0.7728,0.8822
+TimesFM 2.5,covid_deaths,A,4000,0.25,-10.5464,0.782,0.782
+TimesFM 2.5,covid_deaths,Joint,4000,0.25,-10.5464,0.782,0.782
+TimesFM 2.5,covid_deaths,ES+guard (no HF rule),4000,0.0,0.0,0.7728,0.8822
+TimesFM 2.5,covid_deaths,Joint (no HF rule),4000,0.25,-10.5464,0.782,0.782
+TimesFM 2.5,covid_deaths,Joint (B-style HF),4000,0.25,-10.5464,0.782,0.782
+TimesFM 2.5,covid_deaths,oracle-step,1000,1.0,-13.3958,0.8172,0.8172
+TimesFM 2.5,covid_deaths,oracle-joint,1000,0.75,-16.2296,0.795,0.795
+TimesFM 2.5,electricity/15T,"LoRA (4000, a=1)",4000,1.0,-16.2179,0.7656,0.7536
+TimesFM 2.5,electricity/15T,ES,4000,1.0,-16.2179,0.7656,0.7536
+TimesFM 2.5,electricity/15T,ES+guard,4000,0.0,0.0,0.7708,0.7662
+TimesFM 2.5,electricity/15T,A,4000,0.0,0.0,0.7708,0.7662
+TimesFM 2.5,electricity/15T,Joint,4000,0.0,0.0,0.7708,0.7662
+TimesFM 2.5,electricity/15T,ES+guard (no HF rule),4000,1.0,-16.2179,0.7656,0.7536
+TimesFM 2.5,electricity/15T,Joint (no HF rule),4000,1.0,-16.2179,0.7656,0.7536
+TimesFM 2.5,electricity/15T,Joint (B-style HF),4000,0.5,-12.0656,0.7691,0.7594
+TimesFM 2.5,electricity/15T,oracle-step,4000,1.0,-16.2179,0.7656,0.7536
+TimesFM 2.5,electricity/15T,oracle-joint,4000,1.0,-16.2179,0.7656,0.7536
+TimesFM 2.5,electricity/D,"LoRA (4000, a=1)",4000,1.0,-1.2682,0.711,0.7973
+TimesFM 2.5,electricity/D,ES,500,1.0,-4.8589,0.7725,0.7675
+TimesFM 2.5,electricity/D,ES+guard,500,1.0,-4.8589,0.7725,0.7675
+TimesFM 2.5,electricity/D,A,4000,0.1,-1.4463,0.7586,0.7862
+TimesFM 2.5,electricity/D,Joint,500,1.0,-4.8589,0.7725,0.7675
+TimesFM 2.5,electricity/D,ES+guard (no HF rule),500,1.0,-4.8589,0.7725,0.7675
+TimesFM 2.5,electricity/D,Joint (no HF rule),500,1.0,-4.8589,0.7725,0.7675
+TimesFM 2.5,electricity/D,Joint (B-style HF),500,1.0,-4.8589,0.7725,0.7675
+TimesFM 2.5,electricity/D,oracle-step,500,1.0,-4.8589,0.7725,0.7675
+TimesFM 2.5,electricity/D,oracle-joint,500,1.0,-4.8589,0.7725,0.7675
+TimesFM 2.5,electricity/H,"LoRA (4000, a=1)",4000,1.0,-7.6359,0.7839,0.757
+TimesFM 2.5,electricity/H,ES,2000,1.0,-10.1988,0.7825,0.7563
+TimesFM 2.5,electricity/H,ES+guard,4000,0.0,0.0,0.7687,0.7505
+TimesFM 2.5,electricity/H,A,4000,0.0,0.0,0.7687,0.7505
+TimesFM 2.5,electricity/H,Joint,4000,0.0,0.0,0.7687,0.7505
+TimesFM 2.5,electricity/H,ES+guard (no HF rule),2000,1.0,-10.1988,0.7825,0.7563
+TimesFM 2.5,electricity/H,Joint (no HF rule),2000,0.75,-9.1692,0.7809,0.7552
+TimesFM 2.5,electricity/H,Joint (B-style HF),4000,0.0,0.0,0.7687,0.7505
+TimesFM 2.5,electricity/H,oracle-step,2000,1.0,-10.1988,0.7825,0.7563
+TimesFM 2.5,electricity/H,oracle-joint,2000,1.0,-10.1988,0.7825,0.7563
+TimesFM 2.5,electricity/W,"LoRA (4000, a=1)",4000,1.0,-5.426,0.7443,0.8002
+TimesFM 2.5,electricity/W,ES,2000,1.0,-7.3423,0.7662,0.8116
+TimesFM 2.5,electricity/W,ES+guard,4000,0.0,0.0,0.7875,0.7813
+TimesFM 2.5,electricity/W,A,4000,0.0,0.0,0.7875,0.7813
+TimesFM 2.5,electricity/W,Joint,4000,0.0,0.0,0.7875,0.7813
+TimesFM 2.5,electricity/W,ES+guard (no HF rule),4000,0.0,0.0,0.7875,0.7813
+TimesFM 2.5,electricity/W,Joint (no HF rule),4000,0.0,0.0,0.7875,0.7813
+TimesFM 2.5,electricity/W,Joint (B-style HF),4000,0.0,0.0,0.7875,0.7813
+TimesFM 2.5,electricity/W,oracle-step,2000,1.0,-7.3423,0.7662,0.8116
+TimesFM 2.5,electricity/W,oracle-joint,2000,0.75,-8.0931,0.7963,0.8153
+TimesFM 2.5,ett1/D,"LoRA (4000, a=1)",4000,1.0,34.0552,0.2524,0.7905
+TimesFM 2.5,ett1/D,ES,500,1.0,19.4683,0.4365,0.7889
+TimesFM 2.5,ett1/D,ES+guard,4000,0.0,0.0,0.7937,0.8286
+TimesFM 2.5,ett1/D,A,4000,0.0,0.0,0.7937,0.8286
+TimesFM 2.5,ett1/D,Joint,4000,0.0,0.0,0.7937,0.8286
+TimesFM 2.5,ett1/D,ES+guard (no HF rule),4000,0.0,0.0,0.7937,0.8286
+TimesFM 2.5,ett1/D,Joint (no HF rule),4000,0.0,0.0,0.7937,0.8286
+TimesFM 2.5,ett1/D,Joint (B-style HF),4000,0.0,0.0,0.7937,0.8286
+TimesFM 2.5,ett1/D,oracle-step,4000,0.0,0.0,0.7937,0.8286
+TimesFM 2.5,ett1/D,oracle-joint,4000,0.0,0.0,0.7937,0.8286
+TimesFM 2.5,ett1/H,"LoRA (4000, a=1)",4000,1.0,22.1005,0.6411,0.829
+TimesFM 2.5,ett1/H,ES,500,1.0,2.9125,0.7763,0.7862
+TimesFM 2.5,ett1/H,ES+guard,4000,0.0,0.0,0.7957,0.782
+TimesFM 2.5,ett1/H,A,4000,0.0,0.0,0.7957,0.782
+TimesFM 2.5,ett1/H,Joint,4000,0.0,0.0,0.7957,0.782
+TimesFM 2.5,ett1/H,ES+guard (no HF rule),500,1.0,2.9125,0.7763,0.7862
+TimesFM 2.5,ett1/H,Joint (no HF rule),500,1.0,2.9125,0.7763,0.7862
+TimesFM 2.5,ett1/H,Joint (B-style HF),4000,0.0,0.0,0.7957,0.782
+TimesFM 2.5,ett1/H,oracle-step,4000,0.0,0.0,0.7957,0.782
+TimesFM 2.5,ett1/H,oracle-joint,500,0.25,-0.5767,0.793,0.8
+TimesFM 2.5,ett1/W,"LoRA (4000, a=1)",4000,1.0,20.3875,0.3393,0.8125
+TimesFM 2.5,ett1/W,ES,500,1.0,16.6515,0.4732,0.7589
+TimesFM 2.5,ett1/W,ES+guard,4000,0.0,0.0,0.7768,0.75
+TimesFM 2.5,ett1/W,A,4000,0.0,0.0,0.7768,0.75
+TimesFM 2.5,ett1/W,Joint,4000,0.0,0.0,0.7768,0.75
+TimesFM 2.5,ett1/W,ES+guard (no HF rule),4000,0.0,0.0,0.7768,0.75
+TimesFM 2.5,ett1/W,Joint (no HF rule),4000,0.0,0.0,0.7768,0.75
+TimesFM 2.5,ett1/W,Joint (B-style HF),4000,0.0,0.0,0.7768,0.75
+TimesFM 2.5,ett1/W,oracle-step,4000,0.0,0.0,0.7768,0.75
+TimesFM 2.5,ett1/W,oracle-joint,4000,0.0,0.0,0.7768,0.75
+TimesFM 2.5,ett2/D,"LoRA (4000, a=1)",4000,1.0,124.3943,0.4413,0.8397
+TimesFM 2.5,ett2/D,ES,500,1.0,74.4756,0.6794,0.8952
+TimesFM 2.5,ett2/D,ES+guard,4000,0.0,0.0,0.873,0.927
+TimesFM 2.5,ett2/D,A,4000,0.0,0.0,0.873,0.927
+TimesFM 2.5,ett2/D,Joint,4000,0.0,0.0,0.873,0.927
+TimesFM 2.5,ett2/D,ES+guard (no HF rule),4000,0.0,0.0,0.873,0.927
+TimesFM 2.5,ett2/D,Joint (no HF rule),4000,0.0,0.0,0.873,0.927
+TimesFM 2.5,ett2/D,Joint (B-style HF),4000,0.0,0.0,0.873,0.927
+TimesFM 2.5,ett2/D,oracle-step,4000,0.0,0.0,0.873,0.927
+TimesFM 2.5,ett2/D,oracle-joint,4000,0.0,0.0,0.873,0.927
+TimesFM 2.5,ett2/W,"LoRA (4000, a=1)",4000,1.0,15.132,0.4643,1.0
+TimesFM 2.5,ett2/W,ES,500,1.0,2.7229,0.8571,1.0
+TimesFM 2.5,ett2/W,ES+guard,4000,0.0,0.0,0.9464,0.9821
+TimesFM 2.5,ett2/W,A,4000,0.0,0.0,0.9464,0.9821
+TimesFM 2.5,ett2/W,Joint,4000,0.0,0.0,0.9464,0.9821
+TimesFM 2.5,ett2/W,ES+guard (no HF rule),4000,0.0,0.0,0.9464,0.9821
+TimesFM 2.5,ett2/W,Joint (no HF rule),4000,0.0,0.0,0.9464,0.9821
+TimesFM 2.5,ett2/W,Joint (B-style HF),4000,0.0,0.0,0.9464,0.9821
+TimesFM 2.5,ett2/W,oracle-step,4000,0.0,0.0,0.9464,0.9821
+TimesFM 2.5,ett2/W,oracle-joint,4000,0.25,-2.0331,0.9018,0.9911
+TimesFM 2.5,hierarchical_sales/D,"LoRA (4000, a=1)",4000,1.0,3.3284,0.7598,0.7947
+TimesFM 2.5,hierarchical_sales/D,ES,500,1.0,3.7314,0.7686,0.7902
+TimesFM 2.5,hierarchical_sales/D,ES+guard,4000,0.0,0.0,0.7873,0.7919
+TimesFM 2.5,hierarchical_sales/D,A,4000,0.0,0.0,0.7873,0.7919
+TimesFM 2.5,hierarchical_sales/D,Joint,4000,0.0,0.0,0.7873,0.7919
+TimesFM 2.5,hierarchical_sales/D,ES+guard (no HF rule),4000,0.0,0.0,0.7873,0.7919
+TimesFM 2.5,hierarchical_sales/D,Joint (no HF rule),4000,0.0,0.0,0.7873,0.7919
+TimesFM 2.5,hierarchical_sales/D,Joint (B-style HF),4000,0.0,0.0,0.7873,0.7919
+TimesFM 2.5,hierarchical_sales/D,oracle-step,4000,0.0,0.0,0.7873,0.7919
+TimesFM 2.5,hierarchical_sales/D,oracle-joint,4000,0.0,0.0,0.7873,0.7919
+TimesFM 2.5,hierarchical_sales/W,"LoRA (4000, a=1)",4000,1.0,14.6407,0.6367,0.7945
+TimesFM 2.5,hierarchical_sales/W,ES,500,1.0,2.8031,0.7481,0.7675
+TimesFM 2.5,hierarchical_sales/W,ES+guard,4000,0.0,0.0,0.7865,0.791
+TimesFM 2.5,hierarchical_sales/W,A,4000,0.0,0.0,0.7865,0.791
+TimesFM 2.5,hierarchical_sales/W,Joint,4000,0.0,0.0,0.7865,0.791
+TimesFM 2.5,hierarchical_sales/W,ES+guard (no HF rule),4000,0.0,0.0,0.7865,0.791
+TimesFM 2.5,hierarchical_sales/W,Joint (no HF rule),4000,0.0,0.0,0.7865,0.791
+TimesFM 2.5,hierarchical_sales/W,Joint (B-style HF),4000,0.0,0.0,0.7865,0.791
+TimesFM 2.5,hierarchical_sales/W,oracle-step,4000,0.0,0.0,0.7865,0.791
+TimesFM 2.5,hierarchical_sales/W,oracle-joint,500,0.25,-0.5089,0.7812,0.7892
+TimesFM 2.5,hospital,"LoRA (4000, a=1)",4000,1.0,4.1878,0.8277,0.8747
+TimesFM 2.5,hospital,ES,500,1.0,1.0531,0.8276,0.8611
+TimesFM 2.5,hospital,ES+guard,4000,0.0,0.0,0.8177,0.8641
+TimesFM 2.5,hospital,A,4000,0.0,0.0,0.8177,0.8641
+TimesFM 2.5,hospital,Joint,4000,0.0,0.0,0.8177,0.8641
+TimesFM 2.5,hospital,ES+guard (no HF rule),4000,0.0,0.0,0.8177,0.8641
+TimesFM 2.5,hospital,Joint (no HF rule),4000,0.0,0.0,0.8177,0.8641
+TimesFM 2.5,hospital,Joint (B-style HF),4000,0.0,0.0,0.8177,0.8641
+TimesFM 2.5,hospital,oracle-step,4000,0.0,0.0,0.8177,0.8641
+TimesFM 2.5,hospital,oracle-joint,500,0.5,-0.9473,0.8248,0.8606
+TimesFM 2.5,jena_weather/D,"LoRA (4000, a=1)",4000,1.0,12.6905,0.4857,0.927
+TimesFM 2.5,jena_weather/D,ES,1000,1.0,0.9106,0.6222,0.8921
+TimesFM 2.5,jena_weather/D,ES+guard,4000,0.0,0.0,0.769,0.7429
+TimesFM 2.5,jena_weather/D,A,4000,0.0,0.0,0.769,0.7429
+TimesFM 2.5,jena_weather/D,Joint,4000,0.0,0.0,0.769,0.7429
+TimesFM 2.5,jena_weather/D,ES+guard (no HF rule),4000,0.0,0.0,0.769,0.7429
+TimesFM 2.5,jena_weather/D,Joint (no HF rule),4000,0.0,0.0,0.769,0.7429
+TimesFM 2.5,jena_weather/D,Joint (B-style HF),4000,0.0,0.0,0.769,0.7429
+TimesFM 2.5,jena_weather/D,oracle-step,500,1.0,-1.4468,0.7095,0.8667
+TimesFM 2.5,jena_weather/D,oracle-joint,500,1.0,-1.4468,0.7095,0.8667
+TimesFM 2.5,jena_weather/H,"LoRA (4000, a=1)",4000,1.0,11.8251,0.5887,0.821
+TimesFM 2.5,jena_weather/H,ES,500,1.0,0.8287,0.7762,0.8262
+TimesFM 2.5,jena_weather/H,ES+guard,4000,0.0,0.0,0.7991,0.7678
+TimesFM 2.5,jena_weather/H,A,4000,0.0,0.0,0.7991,0.7678
+TimesFM 2.5,jena_weather/H,Joint,4000,0.0,0.0,0.7991,0.7678
+TimesFM 2.5,jena_weather/H,ES+guard (no HF rule),4000,0.0,0.0,0.7991,0.7678
+TimesFM 2.5,jena_weather/H,Joint (no HF rule),4000,0.0,0.0,0.7991,0.7678
+TimesFM 2.5,jena_weather/H,Joint (B-style HF),4000,0.0,0.0,0.7991,0.7678
+TimesFM 2.5,jena_weather/H,oracle-step,4000,0.0,0.0,0.7991,0.7678
+TimesFM 2.5,jena_weather/H,oracle-joint,500,0.5,-1.1583,0.7909,0.797
+TimesFM 2.5,kdd_cup_2018_with_missing/D,"LoRA (4000, a=1)",4000,1.0,21.2814,0.5077,0.7568
+TimesFM 2.5,kdd_cup_2018_with_missing/D,ES,500,1.0,13.6174,0.5923,0.7369
+TimesFM 2.5,kdd_cup_2018_with_missing/D,ES+guard,4000,0.0,0.0,0.8219,0.8013
+TimesFM 2.5,kdd_cup_2018_with_missing/D,A,4000,0.0,0.0,0.8219,0.8013
+TimesFM 2.5,kdd_cup_2018_with_missing/D,Joint,4000,0.0,0.0,0.8219,0.8013
+TimesFM 2.5,kdd_cup_2018_with_missing/D,ES+guard (no HF rule),4000,0.0,0.0,0.8219,0.8013
+TimesFM 2.5,kdd_cup_2018_with_missing/D,Joint (no HF rule),4000,0.0,0.0,0.8219,0.8013
+TimesFM 2.5,kdd_cup_2018_with_missing/D,Joint (B-style HF),4000,0.0,0.0,0.8219,0.8013
+TimesFM 2.5,kdd_cup_2018_with_missing/D,oracle-step,4000,0.0,0.0,0.8219,0.8013
+TimesFM 2.5,kdd_cup_2018_with_missing/D,oracle-joint,4000,0.0,0.0,0.8219,0.8013
+TimesFM 2.5,kdd_cup_2018_with_missing/H,"LoRA (4000, a=1)",4000,1.0,1.5513,0.7448,0.9012
+TimesFM 2.5,kdd_cup_2018_with_missing/H,ES,1000,1.0,-1.5734,0.7635,0.8867
+TimesFM 2.5,kdd_cup_2018_with_missing/H,ES+guard,4000,0.0,0.0,0.7648,0.811
+TimesFM 2.5,kdd_cup_2018_with_missing/H,A,4000,0.0,0.0,0.7648,0.811
+TimesFM 2.5,kdd_cup_2018_with_missing/H,Joint,4000,0.0,0.0,0.7648,0.811
+TimesFM 2.5,kdd_cup_2018_with_missing/H,ES+guard (no HF rule),4000,0.0,0.0,0.7648,0.811
+TimesFM 2.5,kdd_cup_2018_with_missing/H,Joint (no HF rule),4000,0.0,0.0,0.7648,0.811
+TimesFM 2.5,kdd_cup_2018_with_missing/H,Joint (B-style HF),4000,0.0,0.0,0.7648,0.811
+TimesFM 2.5,kdd_cup_2018_with_missing/H,oracle-step,500,1.0,-2.8965,0.7939,0.8934
+TimesFM 2.5,kdd_cup_2018_with_missing/H,oracle-joint,500,1.0,-2.8965,0.7939,0.8934
+TimesFM 2.5,m4_daily,"LoRA (4000, a=1)",4000,1.0,-2.8257,0.8002,0.7873
+TimesFM 2.5,m4_daily,ES,1000,1.0,-2.9635,0.7929,0.785
+TimesFM 2.5,m4_daily,ES+guard,4000,0.0,0.0,0.7827,0.7827
+TimesFM 2.5,m4_daily,A,4000,0.5,-3.0351,0.8044,0.7824
+TimesFM 2.5,m4_daily,Joint,4000,0.5,-3.0351,0.8044,0.7824
+TimesFM 2.5,m4_daily,ES+guard (no HF rule),4000,0.0,0.0,0.7827,0.7827
+TimesFM 2.5,m4_daily,Joint (no HF rule),4000,0.5,-3.0351,0.8044,0.7824
+TimesFM 2.5,m4_daily,Joint (B-style HF),4000,0.5,-3.0351,0.8044,0.7824
+TimesFM 2.5,m4_daily,oracle-step,500,1.0,-3.4923,0.8089,0.7869
+TimesFM 2.5,m4_daily,oracle-joint,500,1.0,-3.4923,0.8089,0.7869
+TimesFM 2.5,m4_hourly,"LoRA (4000, a=1)",4000,1.0,-1.4212,0.7058,0.8221
+TimesFM 2.5,m4_hourly,ES,500,1.0,-10.6812,0.754,0.8072
+TimesFM 2.5,m4_hourly,ES+guard,4000,0.0,0.0,0.7979,0.7946
+TimesFM 2.5,m4_hourly,A,4000,0.0,0.0,0.7979,0.7946
+TimesFM 2.5,m4_hourly,Joint,4000,0.0,0.0,0.7979,0.7946
+TimesFM 2.5,m4_hourly,ES+guard (no HF rule),4000,0.0,0.0,0.7979,0.7946
+TimesFM 2.5,m4_hourly,Joint (no HF rule),4000,0.0,0.0,0.7979,0.7946
+TimesFM 2.5,m4_hourly,Joint (B-style HF),4000,0.0,0.0,0.7979,0.7946
+TimesFM 2.5,m4_hourly,oracle-step,500,1.0,-10.6812,0.754,0.8072
+TimesFM 2.5,m4_hourly,oracle-joint,500,1.0,-10.6812,0.754,0.8072
+TimesFM 2.5,m4_weekly,"LoRA (4000, a=1)",4000,1.0,1.104,0.8037,0.778
+TimesFM 2.5,m4_weekly,ES,500,1.0,-3.5115,0.8483,0.8078
+TimesFM 2.5,m4_weekly,ES+guard,500,1.0,-3.5115,0.8483,0.8078
+TimesFM 2.5,m4_weekly,A,4000,0.75,-1.4238,0.8192,0.7988
+TimesFM 2.5,m4_weekly,Joint,4000,0.75,-1.4238,0.8192,0.7988
+TimesFM 2.5,m4_weekly,ES+guard (no HF rule),500,1.0,-3.5115,0.8483,0.8078
+TimesFM 2.5,m4_weekly,Joint (no HF rule),4000,0.75,-1.4238,0.8192,0.7988
+TimesFM 2.5,m4_weekly,Joint (B-style HF),4000,0.75,-1.4238,0.8192,0.7988
+TimesFM 2.5,m4_weekly,oracle-step,500,1.0,-3.5115,0.8483,0.8078
+TimesFM 2.5,m4_weekly,oracle-joint,500,1.0,-3.5115,0.8483,0.8078
+TimesFM 2.5,restaurant,"LoRA (4000, a=1)",4000,1.0,-1.7176,0.7923,0.804
+TimesFM 2.5,restaurant,ES,500,1.0,-2.0195,0.8092,0.8
+TimesFM 2.5,restaurant,ES+guard,4000,0.0,0.0,0.7982,0.786
+TimesFM 2.5,restaurant,A,4000,0.0,0.0,0.7982,0.786
+TimesFM 2.5,restaurant,Joint,4000,0.0,0.0,0.7982,0.786
+TimesFM 2.5,restaurant,ES+guard (no HF rule),4000,0.0,0.0,0.7982,0.786
+TimesFM 2.5,restaurant,Joint (no HF rule),4000,0.0,0.0,0.7982,0.786
+TimesFM 2.5,restaurant,Joint (B-style HF),4000,0.0,0.0,0.7982,0.786
+TimesFM 2.5,restaurant,oracle-step,500,1.0,-2.0195,0.8092,0.8
+TimesFM 2.5,restaurant,oracle-joint,500,1.0,-2.0195,0.8092,0.8
+TimesFM 2.5,saugeenday/D,"LoRA (4000, a=1)",4000,1.0,4.5578,0.4883,0.9533
+TimesFM 2.5,saugeenday/D,ES,500,1.0,-14.5402,0.7683,0.9383
+TimesFM 2.5,saugeenday/D,ES+guard,4000,0.0,0.0,0.8367,0.9133
+TimesFM 2.5,saugeenday/D,A,4000,0.25,-11.1678,0.815,0.9033
+TimesFM 2.5,saugeenday/D,Joint,4000,0.25,-11.1678,0.815,0.9033
+TimesFM 2.5,saugeenday/D,ES+guard (no HF rule),4000,0.0,0.0,0.8367,0.9133
+TimesFM 2.5,saugeenday/D,Joint (no HF rule),4000,0.25,-11.1678,0.815,0.9033
+TimesFM 2.5,saugeenday/D,Joint (B-style HF),4000,0.25,-11.1678,0.815,0.9033
+TimesFM 2.5,saugeenday/D,oracle-step,500,1.0,-14.5402,0.7683,0.9383
+TimesFM 2.5,saugeenday/D,oracle-joint,500,0.75,-17.0321,0.805,0.93
+TimesFM 2.5,solar/D,"LoRA (4000, a=1)",4000,1.0,22.2944,0.556,0.7164
+TimesFM 2.5,solar/D,ES,4000,1.0,22.2944,0.556,0.7164
+TimesFM 2.5,solar/D,ES+guard,4000,0.0,0.0,0.9253,0.9349
+TimesFM 2.5,solar/D,A,4000,0.0,0.0,0.9253,0.9349
+TimesFM 2.5,solar/D,Joint,4000,0.0,0.0,0.9253,0.9349
+TimesFM 2.5,solar/D,ES+guard (no HF rule),4000,0.0,0.0,0.9253,0.9349
+TimesFM 2.5,solar/D,Joint (no HF rule),4000,0.0,0.0,0.9253,0.9349
+TimesFM 2.5,solar/D,Joint (B-style HF),4000,0.0,0.0,0.9253,0.9349
+TimesFM 2.5,solar/D,oracle-step,4000,0.0,0.0,0.9253,0.9349
+TimesFM 2.5,solar/D,oracle-joint,4000,0.0,0.0,0.9253,0.9349
+TimesFM 2.5,solar/W,"LoRA (4000, a=1)",4000,1.0,29.406,0.4571,0.7682
+TimesFM 2.5,solar/W,ES,4000,1.0,29.406,0.4571,0.7682
+TimesFM 2.5,solar/W,ES+guard,4000,0.0,0.0,0.8869,0.6104
+TimesFM 2.5,solar/W,A,4000,0.0,0.0,0.8869,0.6104
+TimesFM 2.5,solar/W,Joint,4000,0.0,0.0,0.8869,0.6104
+TimesFM 2.5,solar/W,ES+guard (no HF rule),4000,0.0,0.0,0.8869,0.6104
+TimesFM 2.5,solar/W,Joint (no HF rule),4000,0.0,0.0,0.8869,0.6104
+TimesFM 2.5,solar/W,Joint (B-style HF),4000,0.0,0.0,0.8869,0.6104
+TimesFM 2.5,solar/W,oracle-step,4000,0.0,0.0,0.8869,0.6104
+TimesFM 2.5,solar/W,oracle-joint,4000,0.0,0.0,0.8869,0.6104
+TimesFM 2.5,us_births/D,"LoRA (4000, a=1)",4000,1.0,6.9804,0.4567,0.71
+TimesFM 2.5,us_births/D,ES,500,1.0,-0.9563,0.6417,0.76
+TimesFM 2.5,us_births/D,ES+guard,500,1.0,-0.9563,0.6417,0.76
+TimesFM 2.5,us_births/D,A,4000,0.0,0.0,0.8133,0.8683
+TimesFM 2.5,us_births/D,Joint,500,1.0,-0.9563,0.6417,0.76
+TimesFM 2.5,us_births/D,ES+guard (no HF rule),500,1.0,-0.9563,0.6417,0.76
+TimesFM 2.5,us_births/D,Joint (no HF rule),500,1.0,-0.9563,0.6417,0.76
+TimesFM 2.5,us_births/D,Joint (B-style HF),500,1.0,-0.9563,0.6417,0.76
+TimesFM 2.5,us_births/D,oracle-step,500,1.0,-0.9563,0.6417,0.76
+TimesFM 2.5,us_births/D,oracle-joint,500,0.5,-7.0171,0.7817,0.8467
+TimesFM 2.5,us_births/W,"LoRA (4000, a=1)",4000,1.0,23.3268,0.0268,0.8304
+TimesFM 2.5,us_births/W,ES,500,1.0,9.5458,0.25,0.8571
+TimesFM 2.5,us_births/W,ES+guard,4000,0.0,0.0,0.8214,0.8393
+TimesFM 2.5,us_births/W,A,4000,0.0,0.0,0.8214,0.8393
+TimesFM 2.5,us_births/W,Joint,500,0.5,-5.3592,0.5804,0.8929
+TimesFM 2.5,us_births/W,ES+guard (no HF rule),4000,0.0,0.0,0.8214,0.8393
+TimesFM 2.5,us_births/W,Joint (no HF rule),500,0.5,-5.3592,0.5804,0.8929
+TimesFM 2.5,us_births/W,Joint (B-style HF),500,0.5,-5.3592,0.5804,0.8929
+TimesFM 2.5,us_births/W,oracle-step,4000,0.0,0.0,0.8214,0.8393
+TimesFM 2.5,us_births/W,oracle-joint,500,0.5,-5.3592,0.5804,0.8929
+Chronos-Bolt,LOOP_SEATTLE/D,"LoRA (4000, a=1)",4000,1.0,4.8935,0.5375,0.6186
+Chronos-Bolt,LOOP_SEATTLE/D,ES,1000,1.0,3.4399,0.5759,0.6229
+Chronos-Bolt,LOOP_SEATTLE/D,ES+guard,4000,0.0,0.0,0.6509,0.6226
+Chronos-Bolt,LOOP_SEATTLE/D,A,4000,0.0,0.0,0.6509,0.6226
+Chronos-Bolt,LOOP_SEATTLE/D,Joint,4000,0.0,0.0,0.6509,0.6226
+Chronos-Bolt,LOOP_SEATTLE/D,ES+guard (no HF rule),4000,0.0,0.0,0.6509,0.6226
+Chronos-Bolt,LOOP_SEATTLE/D,Joint (no HF rule),4000,0.0,0.0,0.6509,0.6226
+Chronos-Bolt,LOOP_SEATTLE/D,Joint (B-style HF),4000,0.0,0.0,0.6509,0.6226
+Chronos-Bolt,LOOP_SEATTLE/D,oracle-step,4000,0.0,0.0,0.6509,0.6226
+Chronos-Bolt,LOOP_SEATTLE/D,oracle-joint,4000,0.0,0.0,0.6509,0.6226
+Chronos-Bolt,M_DENSE/D,"LoRA (4000, a=1)",4000,1.0,-7.1603,0.73,0.9074
+Chronos-Bolt,M_DENSE/D,ES,500,1.0,-7.3036,0.7589,0.853
+Chronos-Bolt,M_DENSE/D,ES+guard,4000,0.0,0.0,0.8237,0.7893
+Chronos-Bolt,M_DENSE/D,A,4000,0.0,0.0,0.8237,0.7893
+Chronos-Bolt,M_DENSE/D,Joint,4000,0.0,0.0,0.8237,0.7893
+Chronos-Bolt,M_DENSE/D,ES+guard (no HF rule),4000,0.0,0.0,0.8237,0.7893
+Chronos-Bolt,M_DENSE/D,Joint (no HF rule),4000,0.0,0.0,0.8237,0.7893
+Chronos-Bolt,M_DENSE/D,Joint (B-style HF),4000,0.0,0.0,0.8237,0.7893
+Chronos-Bolt,M_DENSE/D,oracle-step,1000,1.0,-9.393,0.7578,0.8826
+Chronos-Bolt,M_DENSE/D,oracle-joint,2000,0.75,-9.4338,0.7596,0.8752
+Chronos-Bolt,M_DENSE/H,"LoRA (4000, a=1)",4000,1.0,-1.7253,0.7394,0.7324
+Chronos-Bolt,M_DENSE/H,ES,1000,1.0,-0.1383,0.7357,0.718
+Chronos-Bolt,M_DENSE/H,ES+guard,4000,0.0,0.0,0.7935,0.7176
+Chronos-Bolt,M_DENSE/H,A,4000,0.0,0.0,0.7935,0.7176
+Chronos-Bolt,M_DENSE/H,Joint,4000,0.0,0.0,0.7935,0.7176
+Chronos-Bolt,M_DENSE/H,ES+guard (no HF rule),4000,0.0,0.0,0.7935,0.7176
+Chronos-Bolt,M_DENSE/H,Joint (no HF rule),4000,0.0,0.0,0.7935,0.7176
+Chronos-Bolt,M_DENSE/H,Joint (B-style HF),4000,0.0,0.0,0.7935,0.7176
+Chronos-Bolt,M_DENSE/H,oracle-step,4000,1.0,-1.7253,0.7394,0.7324
+Chronos-Bolt,M_DENSE/H,oracle-joint,4000,0.25,-1.765,0.774,0.7214
+Chronos-Bolt,SZ_TAXI/H,"LoRA (4000, a=1)",4000,1.0,3.133,0.684,0.7156
+Chronos-Bolt,SZ_TAXI/H,ES,1000,1.0,2.011,0.7151,0.7322
+Chronos-Bolt,SZ_TAXI/H,ES+guard,4000,0.0,0.0,0.7873,0.7397
+Chronos-Bolt,SZ_TAXI/H,A,4000,0.0,0.0,0.7873,0.7397
+Chronos-Bolt,SZ_TAXI/H,Joint,4000,0.0,0.0,0.7873,0.7397
+Chronos-Bolt,SZ_TAXI/H,ES+guard (no HF rule),500,1.0,2.7345,0.7329,0.7463
+Chronos-Bolt,SZ_TAXI/H,Joint (no HF rule),4000,0.75,0.145,0.722,0.7261
+Chronos-Bolt,SZ_TAXI/H,Joint (B-style HF),4000,0.0,0.0,0.7873,0.7397
+Chronos-Bolt,SZ_TAXI/H,oracle-step,4000,0.0,0.0,0.7873,0.7397
+Chronos-Bolt,SZ_TAXI/H,oracle-joint,2000,0.5,-0.8635,0.7533,0.7375
+Chronos-Bolt,bitbrains_fast_storage/H,"LoRA (4000, a=1)",4000,1.0,69.3648,0.7488,0.8111
+Chronos-Bolt,bitbrains_fast_storage/H,ES,500,1.0,54.0686,0.8088,0.8083
+Chronos-Bolt,bitbrains_fast_storage/H,ES+guard,4000,0.0,0.0,0.816,0.8158
+Chronos-Bolt,bitbrains_fast_storage/H,A,4000,0.0,0.0,0.816,0.8158
+Chronos-Bolt,bitbrains_fast_storage/H,Joint,4000,0.0,0.0,0.816,0.8158
+Chronos-Bolt,bitbrains_fast_storage/H,ES+guard (no HF rule),4000,0.0,0.0,0.816,0.8158
+Chronos-Bolt,bitbrains_fast_storage/H,Joint (no HF rule),4000,0.0,0.0,0.816,0.8158
+Chronos-Bolt,bitbrains_fast_storage/H,Joint (B-style HF),4000,0.0,0.0,0.816,0.8158
+Chronos-Bolt,bitbrains_fast_storage/H,oracle-step,4000,0.0,0.0,0.816,0.8158
+Chronos-Bolt,bitbrains_fast_storage/H,oracle-joint,4000,0.0,0.0,0.816,0.8158
+Chronos-Bolt,bitbrains_rnd/H,"LoRA (4000, a=1)",4000,1.0,11.7893,0.7389,0.8082
+Chronos-Bolt,bitbrains_rnd/H,ES,500,1.0,-13.5699,0.7748,0.7856
+Chronos-Bolt,bitbrains_rnd/H,ES+guard,4000,0.0,0.0,0.7947,0.7947
+Chronos-Bolt,bitbrains_rnd/H,A,4000,0.0,0.0,0.7947,0.7947
+Chronos-Bolt,bitbrains_rnd/H,Joint,4000,0.0,0.0,0.7947,0.7947
+Chronos-Bolt,bitbrains_rnd/H,ES+guard (no HF rule),500,1.0,-13.5699,0.7748,0.7856
+Chronos-Bolt,bitbrains_rnd/H,Joint (no HF rule),500,1.0,-13.5699,0.7748,0.7856
+Chronos-Bolt,bitbrains_rnd/H,Joint (B-style HF),4000,0.0,0.0,0.7947,0.7947
+Chronos-Bolt,bitbrains_rnd/H,oracle-step,500,1.0,-13.5699,0.7748,0.7856
+Chronos-Bolt,bitbrains_rnd/H,oracle-joint,500,1.0,-13.5699,0.7748,0.7856
+Chronos-Bolt,bizitobs_application,"LoRA (4000, a=1)",4000,1.0,-67.2478,0.57,0.6039
+Chronos-Bolt,bizitobs_application,ES,1000,1.0,-68.2111,0.5939,0.6161
+Chronos-Bolt,bizitobs_application,ES+guard,4000,0.0,0.0,0.56,0.8244
+Chronos-Bolt,bizitobs_application,A,4000,0.0,0.0,0.56,0.8244
+Chronos-Bolt,bizitobs_application,Joint,4000,0.0,0.0,0.56,0.8244
+Chronos-Bolt,bizitobs_application,ES+guard (no HF rule),1000,1.0,-68.2111,0.5939,0.6161
+Chronos-Bolt,bizitobs_application,Joint (no HF rule),1000,1.0,-68.2111,0.5939,0.6161
+Chronos-Bolt,bizitobs_application,Joint (B-style HF),4000,0.5,-66.4277,0.5294,0.6822
+Chronos-Bolt,bizitobs_application,oracle-step,500,1.0,-72.3005,0.61,0.6456
+Chronos-Bolt,bizitobs_application,oracle-joint,500,1.0,-72.3005,0.61,0.6456
+Chronos-Bolt,bizitobs_l2c/H,"LoRA (4000, a=1)",4000,1.0,30.6984,0.5565,0.8125
+Chronos-Bolt,bizitobs_l2c/H,ES,2000,1.0,21.5245,0.6419,0.8318
+Chronos-Bolt,bizitobs_l2c/H,ES+guard,4000,0.0,0.0,0.7956,0.8844
+Chronos-Bolt,bizitobs_l2c/H,A,4000,0.0,0.0,0.7956,0.8844
+Chronos-Bolt,bizitobs_l2c/H,Joint,4000,0.0,0.0,0.7956,0.8844
+Chronos-Bolt,bizitobs_l2c/H,ES+guard (no HF rule),2000,1.0,21.5245,0.6419,0.8318
+Chronos-Bolt,bizitobs_l2c/H,Joint (no HF rule),2000,0.75,8.5012,0.6771,0.8557
+Chronos-Bolt,bizitobs_l2c/H,Joint (B-style HF),2000,0.5,2.9697,0.7148,0.872
+Chronos-Bolt,bizitobs_l2c/H,oracle-step,4000,0.0,0.0,0.7956,0.8844
+Chronos-Bolt,bizitobs_l2c/H,oracle-joint,500,0.5,-3.9428,0.7941,0.9062
+Chronos-Bolt,bizitobs_service,"LoRA (4000, a=1)",4000,1.0,-68.3258,0.7051,0.7392
+Chronos-Bolt,bizitobs_service,ES,4000,1.0,-68.3258,0.7051,0.7392
+Chronos-Bolt,bizitobs_service,ES+guard,4000,0.0,0.0,0.7015,0.8437
+Chronos-Bolt,bizitobs_service,A,4000,0.0,0.0,0.7015,0.8437
+Chronos-Bolt,bizitobs_service,Joint,4000,0.0,0.0,0.7015,0.8437
+Chronos-Bolt,bizitobs_service,ES+guard (no HF rule),4000,1.0,-68.3258,0.7051,0.7392
+Chronos-Bolt,bizitobs_service,Joint (no HF rule),4000,0.75,-73.1344,0.758,0.758
+Chronos-Bolt,bizitobs_service,Joint (B-style HF),2000,0.5,-71.9937,0.748,0.7762
+Chronos-Bolt,bizitobs_service,oracle-step,4000,1.0,-68.3258,0.7051,0.7392
+Chronos-Bolt,bizitobs_service,oracle-joint,4000,0.75,-73.1344,0.758,0.758
+Chronos-Bolt,car_parts_with_missing,"LoRA (4000, a=1)",4000,1.0,952.0971,0.7102,0.8405
+Chronos-Bolt,car_parts_with_missing,ES,500,1.0,-3.3989,0.5307,0.8487
+Chronos-Bolt,car_parts_with_missing,ES+guard,500,1.0,-3.3989,0.5307,0.8487
+Chronos-Bolt,car_parts_with_missing,A,4000,0.5,-2.9481,0.7782,0.8322
+Chronos-Bolt,car_parts_with_missing,Joint,500,1.0,-3.3989,0.5307,0.8487
+Chronos-Bolt,car_parts_with_missing,ES+guard (no HF rule),500,1.0,-3.3989,0.5307,0.8487
+Chronos-Bolt,car_parts_with_missing,Joint (no HF rule),500,1.0,-3.3989,0.5307,0.8487
+Chronos-Bolt,car_parts_with_missing,Joint (B-style HF),500,1.0,-3.3989,0.5307,0.8487
+Chronos-Bolt,car_parts_with_missing,oracle-step,500,1.0,-3.3989,0.5307,0.8487
+Chronos-Bolt,car_parts_with_missing,oracle-joint,500,1.0,-3.3989,0.5307,0.8487
+Chronos-Bolt,covid_deaths,"LoRA (4000, a=1)",4000,1.0,176.1768,0.8178,0.6912
+Chronos-Bolt,covid_deaths,ES,4000,1.0,176.1768,0.8178,0.6912
+Chronos-Bolt,covid_deaths,ES+guard,4000,0.0,0.0,0.6412,0.8895
+Chronos-Bolt,covid_deaths,A,4000,0.25,4.8543,0.706,0.8544
+Chronos-Bolt,covid_deaths,Joint,500,0.25,5.3077,0.6878,0.8477
+Chronos-Bolt,covid_deaths,ES+guard (no HF rule),4000,0.0,0.0,0.6412,0.8895
+Chronos-Bolt,covid_deaths,Joint (no HF rule),500,0.25,5.3077,0.6878,0.8477
+Chronos-Bolt,covid_deaths,Joint (B-style HF),500,0.25,5.3077,0.6878,0.8477
+Chronos-Bolt,covid_deaths,oracle-step,4000,0.0,0.0,0.6412,0.8895
+Chronos-Bolt,covid_deaths,oracle-joint,4000,0.0,0.0,0.6412,0.8895
+Chronos-Bolt,electricity/15T,"LoRA (4000, a=1)",4000,1.0,0.2436,0.7375,0.7313
+Chronos-Bolt,electricity/15T,ES,500,1.0,0.5633,0.7352,0.7297
+Chronos-Bolt,electricity/15T,ES+guard,4000,0.0,0.0,0.7471,0.7331
+Chronos-Bolt,electricity/15T,A,4000,0.0,0.0,0.7471,0.7331
+Chronos-Bolt,electricity/15T,Joint,4000,0.0,0.0,0.7471,0.7331
+Chronos-Bolt,electricity/15T,ES+guard (no HF rule),4000,0.0,0.0,0.7471,0.7331
+Chronos-Bolt,electricity/15T,Joint (no HF rule),4000,0.0,0.0,0.7471,0.7331
+Chronos-Bolt,electricity/15T,Joint (B-style HF),4000,0.0,0.0,0.7471,0.7331
+Chronos-Bolt,electricity/15T,oracle-step,4000,0.0,0.0,0.7471,0.7331
+Chronos-Bolt,electricity/15T,oracle-joint,4000,0.25,-0.0228,0.7448,0.7322
+Chronos-Bolt,electricity/D,"LoRA (4000, a=1)",4000,1.0,-2.0936,0.7712,0.7357
+Chronos-Bolt,electricity/D,ES,500,1.0,-2.5304,0.7854,0.7634
+Chronos-Bolt,electricity/D,ES+guard,500,1.0,-2.5304,0.7854,0.7634
+Chronos-Bolt,electricity/D,A,4000,0.5,-3.1105,0.7792,0.7556
+Chronos-Bolt,electricity/D,Joint,500,1.0,-2.5304,0.7854,0.7634
+Chronos-Bolt,electricity/D,ES+guard (no HF rule),500,1.0,-2.5304,0.7854,0.7634
+Chronos-Bolt,electricity/D,Joint (no HF rule),500,1.0,-2.5304,0.7854,0.7634
+Chronos-Bolt,electricity/D,Joint (B-style HF),500,1.0,-2.5304,0.7854,0.7634
+Chronos-Bolt,electricity/D,oracle-step,500,1.0,-2.5304,0.7854,0.7634
+Chronos-Bolt,electricity/D,oracle-joint,4000,0.5,-3.1105,0.7792,0.7556
+Chronos-Bolt,electricity/H,"LoRA (4000, a=1)",4000,1.0,1.7804,0.7913,0.7677
+Chronos-Bolt,electricity/H,ES,500,1.0,0.1494,0.7866,0.7642
+Chronos-Bolt,electricity/H,ES+guard,4000,0.0,0.0,0.7955,0.7645
+Chronos-Bolt,electricity/H,A,4000,0.0,0.0,0.7955,0.7645
+Chronos-Bolt,electricity/H,Joint,4000,0.0,0.0,0.7955,0.7645
+Chronos-Bolt,electricity/H,ES+guard (no HF rule),4000,0.0,0.0,0.7955,0.7645
+Chronos-Bolt,electricity/H,Joint (no HF rule),4000,0.0,0.0,0.7955,0.7645
+Chronos-Bolt,electricity/H,Joint (B-style HF),4000,0.0,0.0,0.7955,0.7645
+Chronos-Bolt,electricity/H,oracle-step,4000,0.0,0.0,0.7955,0.7645
+Chronos-Bolt,electricity/H,oracle-joint,4000,0.0,0.0,0.7955,0.7645
+Chronos-Bolt,electricity/W,"LoRA (4000, a=1)",4000,1.0,-7.7341,0.7904,0.825
+Chronos-Bolt,electricity/W,ES,500,1.0,-2.8144,0.7827,0.7894
+Chronos-Bolt,electricity/W,ES+guard,4000,0.0,0.0,0.7813,0.7525
+Chronos-Bolt,electricity/W,A,4000,0.0,0.0,0.7813,0.7525
+Chronos-Bolt,electricity/W,Joint,4000,0.0,0.0,0.7813,0.7525
+Chronos-Bolt,electricity/W,ES+guard (no HF rule),4000,0.0,0.0,0.7813,0.7525
+Chronos-Bolt,electricity/W,Joint (no HF rule),4000,0.0,0.0,0.7813,0.7525
+Chronos-Bolt,electricity/W,Joint (B-style HF),4000,0.0,0.0,0.7813,0.7525
+Chronos-Bolt,electricity/W,oracle-step,2000,1.0,-7.9567,0.7991,0.8264
+Chronos-Bolt,electricity/W,oracle-joint,2000,1.0,-7.9567,0.7991,0.8264
+Chronos-Bolt,ett1/D,"LoRA (4000, a=1)",4000,1.0,25.2062,0.4302,0.754
+Chronos-Bolt,ett1/D,ES,500,1.0,2.3315,0.6222,0.7857
+Chronos-Bolt,ett1/D,ES+guard,4000,0.0,0.0,0.8127,0.7905
+Chronos-Bolt,ett1/D,A,4000,0.25,-0.6859,0.7111,0.7302
+Chronos-Bolt,ett1/D,Joint,500,0.5,-3.1465,0.7,0.7651
+Chronos-Bolt,ett1/D,ES+guard (no HF rule),4000,0.0,0.0,0.8127,0.7905
+Chronos-Bolt,ett1/D,Joint (no HF rule),500,0.5,-3.1465,0.7,0.7651
+Chronos-Bolt,ett1/D,Joint (B-style HF),500,0.5,-3.1465,0.7,0.7651
+Chronos-Bolt,ett1/D,oracle-step,4000,0.0,0.0,0.8127,0.7905
+Chronos-Bolt,ett1/D,oracle-joint,500,0.75,-3.6402,0.6683,0.7698
+Chronos-Bolt,ett1/H,"LoRA (4000, a=1)",4000,1.0,9.5653,0.7789,0.7193
+Chronos-Bolt,ett1/H,ES,4000,1.0,9.5653,0.7789,0.7193
+Chronos-Bolt,ett1/H,ES+guard,4000,0.0,0.0,0.8257,0.7362
+Chronos-Bolt,ett1/H,A,4000,0.0,0.0,0.8257,0.7362
+Chronos-Bolt,ett1/H,Joint,4000,0.0,0.0,0.8257,0.7362
+Chronos-Bolt,ett1/H,ES+guard (no HF rule),4000,1.0,9.5653,0.7789,0.7193
+Chronos-Bolt,ett1/H,Joint (no HF rule),4000,0.75,0.413,0.8028,0.7196
+Chronos-Bolt,ett1/H,Joint (B-style HF),4000,0.0,0.0,0.8257,0.7362
+Chronos-Bolt,ett1/H,oracle-step,1000,1.0,-3.3779,0.8613,0.7612
+Chronos-Bolt,ett1/H,oracle-joint,1000,0.75,-3.5984,0.851,0.7577
+Chronos-Bolt,ett1/W,"LoRA (4000, a=1)",4000,1.0,30.0267,0.4107,0.6875
+Chronos-Bolt,ett1/W,ES,500,1.0,26.1915,0.3929,0.6696
+Chronos-Bolt,ett1/W,ES+guard,4000,0.0,0.0,0.7143,0.5714
+Chronos-Bolt,ett1/W,A,4000,0.0,0.0,0.7143,0.5714
+Chronos-Bolt,ett1/W,Joint,4000,0.0,0.0,0.7143,0.5714
+Chronos-Bolt,ett1/W,ES+guard (no HF rule),4000,0.0,0.0,0.7143,0.5714
+Chronos-Bolt,ett1/W,Joint (no HF rule),4000,0.0,0.0,0.7143,0.5714
+Chronos-Bolt,ett1/W,Joint (B-style HF),4000,0.0,0.0,0.7143,0.5714
+Chronos-Bolt,ett1/W,oracle-step,4000,0.0,0.0,0.7143,0.5714
+Chronos-Bolt,ett1/W,oracle-joint,2000,0.5,-4.2621,0.5357,0.5893
+Chronos-Bolt,ett2/D,"LoRA (4000, a=1)",4000,1.0,64.062,0.4905,0.881
+Chronos-Bolt,ett2/D,ES,500,1.0,51.456,0.681,0.8841
+Chronos-Bolt,ett2/D,ES+guard,4000,0.0,0.0,0.8968,0.9444
+Chronos-Bolt,ett2/D,A,4000,0.0,0.0,0.8968,0.9444
+Chronos-Bolt,ett2/D,Joint,4000,0.0,0.0,0.8968,0.9444
+Chronos-Bolt,ett2/D,ES+guard (no HF rule),4000,0.0,0.0,0.8968,0.9444
+Chronos-Bolt,ett2/D,Joint (no HF rule),4000,0.0,0.0,0.8968,0.9444
+Chronos-Bolt,ett2/D,Joint (B-style HF),4000,0.0,0.0,0.8968,0.9444
+Chronos-Bolt,ett2/D,oracle-step,4000,0.0,0.0,0.8968,0.9444
+Chronos-Bolt,ett2/D,oracle-joint,4000,0.0,0.0,0.8968,0.9444
+Chronos-Bolt,ett2/W,"LoRA (4000, a=1)",4000,1.0,38.7754,0.7054,0.9821
+Chronos-Bolt,ett2/W,ES,500,1.0,13.6683,0.8482,0.9911
+Chronos-Bolt,ett2/W,ES+guard,4000,0.0,0.0,0.9554,0.9554
+Chronos-Bolt,ett2/W,A,4000,0.0,0.0,0.9554,0.9554
+Chronos-Bolt,ett2/W,Joint,4000,0.0,0.0,0.9554,0.9554
+Chronos-Bolt,ett2/W,ES+guard (no HF rule),4000,0.0,0.0,0.9554,0.9554
+Chronos-Bolt,ett2/W,Joint (no HF rule),4000,0.0,0.0,0.9554,0.9554
+Chronos-Bolt,ett2/W,Joint (B-style HF),4000,0.0,0.0,0.9554,0.9554
+Chronos-Bolt,ett2/W,oracle-step,4000,0.0,0.0,0.9554,0.9554
+Chronos-Bolt,ett2/W,oracle-joint,500,0.5,-5.2954,0.9196,0.9554
+Chronos-Bolt,hierarchical_sales/D,"LoRA (4000, a=1)",4000,1.0,1.8621,0.7602,0.7922
+Chronos-Bolt,hierarchical_sales/D,ES,500,1.0,0.6118,0.7614,0.7908
+Chronos-Bolt,hierarchical_sales/D,ES+guard,4000,0.0,0.0,0.7569,0.7826
+Chronos-Bolt,hierarchical_sales/D,A,4000,0.0,0.0,0.7569,0.7826
+Chronos-Bolt,hierarchical_sales/D,Joint,4000,0.0,0.0,0.7569,0.7826
+Chronos-Bolt,hierarchical_sales/D,ES+guard (no HF rule),4000,0.0,0.0,0.7569,0.7826
+Chronos-Bolt,hierarchical_sales/D,Joint (no HF rule),4000,0.0,0.0,0.7569,0.7826
+Chronos-Bolt,hierarchical_sales/D,Joint (B-style HF),4000,0.0,0.0,0.7569,0.7826
+Chronos-Bolt,hierarchical_sales/D,oracle-step,4000,0.0,0.0,0.7569,0.7826
+Chronos-Bolt,hierarchical_sales/D,oracle-joint,500,0.25,-0.3876,0.7522,0.7782
+Chronos-Bolt,hierarchical_sales/W,"LoRA (4000, a=1)",4000,1.0,-4.2119,0.7376,0.7765
+Chronos-Bolt,hierarchical_sales/W,ES,500,1.0,-2.292,0.7434,0.7897
+Chronos-Bolt,hierarchical_sales/W,ES+guard,500,1.0,-2.292,0.7434,0.7897
+Chronos-Bolt,hierarchical_sales/W,A,4000,0.0,0.0,0.7391,0.7818
+Chronos-Bolt,hierarchical_sales/W,Joint,500,1.0,-2.292,0.7434,0.7897
+Chronos-Bolt,hierarchical_sales/W,ES+guard (no HF rule),500,1.0,-2.292,0.7434,0.7897
+Chronos-Bolt,hierarchical_sales/W,Joint (no HF rule),500,1.0,-2.292,0.7434,0.7897
+Chronos-Bolt,hierarchical_sales/W,Joint (B-style HF),500,1.0,-2.292,0.7434,0.7897
+Chronos-Bolt,hierarchical_sales/W,oracle-step,4000,1.0,-4.2119,0.7376,0.7765
+Chronos-Bolt,hierarchical_sales/W,oracle-joint,4000,1.0,-4.2119,0.7376,0.7765
+Chronos-Bolt,hospital,"LoRA (4000, a=1)",4000,1.0,-2.0981,0.8107,0.852
+Chronos-Bolt,hospital,ES,500,1.0,-3.317,0.8093,0.8478
+Chronos-Bolt,hospital,ES+guard,4000,0.0,0.0,0.8246,0.8279
+Chronos-Bolt,hospital,A,4000,0.0,0.0,0.8246,0.8279
+Chronos-Bolt,hospital,Joint,4000,0.0,0.0,0.8246,0.8279
+Chronos-Bolt,hospital,ES+guard (no HF rule),4000,0.0,0.0,0.8246,0.8279
+Chronos-Bolt,hospital,Joint (no HF rule),4000,0.0,0.0,0.8246,0.8279
+Chronos-Bolt,hospital,Joint (B-style HF),4000,0.0,0.0,0.8246,0.8279
+Chronos-Bolt,hospital,oracle-step,1000,1.0,-4.1039,0.8224,0.8526
+Chronos-Bolt,hospital,oracle-joint,1000,1.0,-4.1039,0.8224,0.8526
+Chronos-Bolt,jena_weather/D,"LoRA (4000, a=1)",4000,1.0,17.0518,0.5103,0.9016
+Chronos-Bolt,jena_weather/D,ES,500,1.0,3.4232,0.6651,0.8603
+Chronos-Bolt,jena_weather/D,ES+guard,4000,0.0,0.0,0.7325,0.731
+Chronos-Bolt,jena_weather/D,A,4000,0.0,0.0,0.7325,0.731
+Chronos-Bolt,jena_weather/D,Joint,4000,0.0,0.0,0.7325,0.731
+Chronos-Bolt,jena_weather/D,ES+guard (no HF rule),4000,0.0,0.0,0.7325,0.731
+Chronos-Bolt,jena_weather/D,Joint (no HF rule),4000,0.0,0.0,0.7325,0.731
+Chronos-Bolt,jena_weather/D,Joint (B-style HF),4000,0.0,0.0,0.7325,0.731
+Chronos-Bolt,jena_weather/D,oracle-step,4000,0.0,0.0,0.7325,0.731
+Chronos-Bolt,jena_weather/D,oracle-joint,4000,0.0,0.0,0.7325,0.731
+Chronos-Bolt,jena_weather/H,"LoRA (4000, a=1)",4000,1.0,2.1978,0.7227,0.7558
+Chronos-Bolt,jena_weather/H,ES,500,1.0,-1.6426,0.8407,0.8344
+Chronos-Bolt,jena_weather/H,ES+guard,4000,0.0,0.0,0.8302,0.7847
+Chronos-Bolt,jena_weather/H,A,4000,0.0,0.0,0.8302,0.7847
+Chronos-Bolt,jena_weather/H,Joint,4000,0.0,0.0,0.8302,0.7847
+Chronos-Bolt,jena_weather/H,ES+guard (no HF rule),4000,0.0,0.0,0.8302,0.7847
+Chronos-Bolt,jena_weather/H,Joint (no HF rule),4000,0.0,0.0,0.8302,0.7847
+Chronos-Bolt,jena_weather/H,Joint (B-style HF),4000,0.0,0.0,0.8302,0.7847
+Chronos-Bolt,jena_weather/H,oracle-step,500,1.0,-1.6426,0.8407,0.8344
+Chronos-Bolt,jena_weather/H,oracle-joint,4000,0.5,-1.7624,0.823,0.8055
+Chronos-Bolt,kdd_cup_2018_with_missing/D,"LoRA (4000, a=1)",4000,1.0,13.382,0.6567,0.7593
+Chronos-Bolt,kdd_cup_2018_with_missing/D,ES,500,1.0,9.1257,0.6982,0.7426
+Chronos-Bolt,kdd_cup_2018_with_missing/D,ES+guard,500,1.0,9.1257,0.6982,0.7426
+Chronos-Bolt,kdd_cup_2018_with_missing/D,A,4000,0.5,6.8696,0.7331,0.7814
+Chronos-Bolt,kdd_cup_2018_with_missing/D,Joint,500,1.0,9.1257,0.6982,0.7426
+Chronos-Bolt,kdd_cup_2018_with_missing/D,ES+guard (no HF rule),500,1.0,9.1257,0.6982,0.7426
+Chronos-Bolt,kdd_cup_2018_with_missing/D,Joint (no HF rule),500,1.0,9.1257,0.6982,0.7426
+Chronos-Bolt,kdd_cup_2018_with_missing/D,Joint (B-style HF),500,1.0,9.1257,0.6982,0.7426
+Chronos-Bolt,kdd_cup_2018_with_missing/D,oracle-step,4000,0.0,0.0,0.8327,0.8366
+Chronos-Bolt,kdd_cup_2018_with_missing/D,oracle-joint,4000,0.0,0.0,0.8327,0.8366
+Chronos-Bolt,kdd_cup_2018_with_missing/H,"LoRA (4000, a=1)",4000,1.0,0.5169,0.7724,0.7731
+Chronos-Bolt,kdd_cup_2018_with_missing/H,ES,2000,1.0,0.6083,0.7705,0.7759
+Chronos-Bolt,kdd_cup_2018_with_missing/H,ES+guard,4000,0.0,0.0,0.7873,0.7797
+Chronos-Bolt,kdd_cup_2018_with_missing/H,A,4000,0.0,0.0,0.7873,0.7797
+Chronos-Bolt,kdd_cup_2018_with_missing/H,Joint,4000,0.0,0.0,0.7873,0.7797
+Chronos-Bolt,kdd_cup_2018_with_missing/H,ES+guard (no HF rule),4000,0.0,0.0,0.7873,0.7797
+Chronos-Bolt,kdd_cup_2018_with_missing/H,Joint (no HF rule),4000,0.0,0.0,0.7873,0.7797
+Chronos-Bolt,kdd_cup_2018_with_missing/H,Joint (B-style HF),4000,0.0,0.0,0.7873,0.7797
+Chronos-Bolt,kdd_cup_2018_with_missing/H,oracle-step,4000,0.0,0.0,0.7873,0.7797
+Chronos-Bolt,kdd_cup_2018_with_missing/H,oracle-joint,4000,0.0,0.0,0.7873,0.7797
+Chronos-Bolt,m4_daily,"LoRA (4000, a=1)",4000,1.0,-1.676,0.8141,0.794
+Chronos-Bolt,m4_daily,ES,1000,1.0,-1.189,0.8137,0.7874
+Chronos-Bolt,m4_daily,ES+guard,4000,0.0,0.0,0.814,0.7899
+Chronos-Bolt,m4_daily,A,4000,0.0,0.0,0.814,0.7899
+Chronos-Bolt,m4_daily,Joint,4000,0.0,0.0,0.814,0.7899
+Chronos-Bolt,m4_daily,ES+guard (no HF rule),4000,0.0,0.0,0.814,0.7899
+Chronos-Bolt,m4_daily,Joint (no HF rule),4000,0.0,0.0,0.814,0.7899
+Chronos-Bolt,m4_daily,Joint (B-style HF),4000,0.0,0.0,0.814,0.7899
+Chronos-Bolt,m4_daily,oracle-step,2000,1.0,-1.7934,0.8118,0.7964
+Chronos-Bolt,m4_daily,oracle-joint,2000,1.0,-1.7934,0.8118,0.7964
+Chronos-Bolt,m4_hourly,"LoRA (4000, a=1)",4000,1.0,39.8691,0.7677,0.7705
+Chronos-Bolt,m4_hourly,ES,500,1.0,21.4141,0.771,0.771
+Chronos-Bolt,m4_hourly,ES+guard,4000,0.0,0.0,0.805,0.7814
+Chronos-Bolt,m4_hourly,A,4000,0.0,0.0,0.805,0.7814
+Chronos-Bolt,m4_hourly,Joint,4000,0.0,0.0,0.805,0.7814
+Chronos-Bolt,m4_hourly,ES+guard (no HF rule),4000,0.0,0.0,0.805,0.7814
+Chronos-Bolt,m4_hourly,Joint (no HF rule),4000,0.0,0.0,0.805,0.7814
+Chronos-Bolt,m4_hourly,Joint (B-style HF),4000,0.0,0.0,0.805,0.7814
+Chronos-Bolt,m4_hourly,oracle-step,4000,0.0,0.0,0.805,0.7814
+Chronos-Bolt,m4_hourly,oracle-joint,4000,0.0,0.0,0.805,0.7814
+Chronos-Bolt,m4_weekly,"LoRA (4000, a=1)",4000,1.0,-1.642,0.8427,0.8192
+Chronos-Bolt,m4_weekly,ES,4000,1.0,-1.642,0.8427,0.8192
+Chronos-Bolt,m4_weekly,ES+guard,4000,0.0,0.0,0.8558,0.8119
+Chronos-Bolt,m4_weekly,A,4000,0.0,0.0,0.8558,0.8119
+Chronos-Bolt,m4_weekly,Joint,4000,0.0,0.0,0.8558,0.8119
+Chronos-Bolt,m4_weekly,ES+guard (no HF rule),4000,0.0,0.0,0.8558,0.8119
+Chronos-Bolt,m4_weekly,Joint (no HF rule),4000,0.0,0.0,0.8558,0.8119
+Chronos-Bolt,m4_weekly,Joint (B-style HF),4000,0.0,0.0,0.8558,0.8119
+Chronos-Bolt,m4_weekly,oracle-step,2000,1.0,-1.8129,0.8498,0.8183
+Chronos-Bolt,m4_weekly,oracle-joint,2000,1.0,-1.8129,0.8498,0.8183
+Chronos-Bolt,restaurant,"LoRA (4000, a=1)",4000,1.0,-3.4816,0.8015,0.8119
+Chronos-Bolt,restaurant,ES,1000,1.0,-3.2605,0.8175,0.7946
+Chronos-Bolt,restaurant,ES+guard,4000,0.0,0.0,0.8091,0.7857
+Chronos-Bolt,restaurant,A,4000,0.0,0.0,0.8091,0.7857
+Chronos-Bolt,restaurant,Joint,4000,0.0,0.0,0.8091,0.7857
+Chronos-Bolt,restaurant,ES+guard (no HF rule),4000,0.0,0.0,0.8091,0.7857
+Chronos-Bolt,restaurant,Joint (no HF rule),4000,0.0,0.0,0.8091,0.7857
+Chronos-Bolt,restaurant,Joint (B-style HF),4000,0.0,0.0,0.8091,0.7857
+Chronos-Bolt,restaurant,oracle-step,4000,1.0,-3.4816,0.8015,0.8119
+Chronos-Bolt,restaurant,oracle-joint,4000,0.75,-3.5225,0.8004,0.8003
+Chronos-Bolt,saugeenday/D,"LoRA (4000, a=1)",4000,1.0,3.053,0.6917,0.9267
+Chronos-Bolt,saugeenday/D,ES,500,1.0,1.6723,0.82,0.7817
+Chronos-Bolt,saugeenday/D,ES+guard,4000,0.0,0.0,0.8133,0.89
+Chronos-Bolt,saugeenday/D,A,4000,0.0,0.0,0.8133,0.89
+Chronos-Bolt,saugeenday/D,Joint,4000,0.0,0.0,0.8133,0.89
+Chronos-Bolt,saugeenday/D,ES+guard (no HF rule),4000,0.0,0.0,0.8133,0.89
+Chronos-Bolt,saugeenday/D,Joint (no HF rule),4000,0.0,0.0,0.8133,0.89
+Chronos-Bolt,saugeenday/D,Joint (B-style HF),4000,0.0,0.0,0.8133,0.89
+Chronos-Bolt,saugeenday/D,oracle-step,1000,1.0,-1.3454,0.795,0.9183
+Chronos-Bolt,saugeenday/D,oracle-joint,2000,0.5,-4.8817,0.8283,0.9367
+Chronos-Bolt,solar/D,"LoRA (4000, a=1)",4000,1.0,46.2085,0.5916,0.6345
+Chronos-Bolt,solar/D,ES,1000,1.0,49.532,0.6371,0.671
+Chronos-Bolt,solar/D,ES+guard,4000,0.0,0.0,0.8439,0.8316
+Chronos-Bolt,solar/D,A,4000,0.0,0.0,0.8439,0.8316
+Chronos-Bolt,solar/D,Joint,4000,0.0,0.0,0.8439,0.8316
+Chronos-Bolt,solar/D,ES+guard (no HF rule),4000,0.0,0.0,0.8439,0.8316
+Chronos-Bolt,solar/D,Joint (no HF rule),4000,0.0,0.0,0.8439,0.8316
+Chronos-Bolt,solar/D,Joint (B-style HF),4000,0.0,0.0,0.8439,0.8316
+Chronos-Bolt,solar/D,oracle-step,4000,0.0,0.0,0.8439,0.8316
+Chronos-Bolt,solar/D,oracle-joint,4000,0.0,0.0,0.8439,0.8316
+Chronos-Bolt,solar/W,"LoRA (4000, a=1)",4000,1.0,202.9625,0.0493,0.5146
+Chronos-Bolt,solar/W,ES,500,1.0,106.3161,0.281,0.7728
+Chronos-Bolt,solar/W,ES+guard,4000,0.0,0.0,0.9745,0.7044
+Chronos-Bolt,solar/W,A,4000,0.0,0.0,0.9745,0.7044
+Chronos-Bolt,solar/W,Joint,4000,0.0,0.0,0.9745,0.7044
+Chronos-Bolt,solar/W,ES+guard (no HF rule),4000,0.0,0.0,0.9745,0.7044
+Chronos-Bolt,solar/W,Joint (no HF rule),4000,0.0,0.0,0.9745,0.7044
+Chronos-Bolt,solar/W,Joint (B-style HF),4000,0.0,0.0,0.9745,0.7044
+Chronos-Bolt,solar/W,oracle-step,4000,0.0,0.0,0.9745,0.7044
+Chronos-Bolt,solar/W,oracle-joint,4000,0.0,0.0,0.9745,0.7044
+Chronos-Bolt,us_births/D,"LoRA (4000, a=1)",4000,1.0,-30.6108,0.83,0.775
+Chronos-Bolt,us_births/D,ES,2000,1.0,-30.7197,0.8467,0.815
+Chronos-Bolt,us_births/D,ES+guard,2000,1.0,-30.7197,0.8467,0.815
+Chronos-Bolt,us_births/D,A,4000,0.75,-29.7428,0.8467,0.79
+Chronos-Bolt,us_births/D,Joint,2000,1.0,-30.7197,0.8467,0.815
+Chronos-Bolt,us_births/D,ES+guard (no HF rule),2000,1.0,-30.7197,0.8467,0.815
+Chronos-Bolt,us_births/D,Joint (no HF rule),2000,1.0,-30.7197,0.8467,0.815
+Chronos-Bolt,us_births/D,Joint (B-style HF),2000,1.0,-30.7197,0.8467,0.815
+Chronos-Bolt,us_births/D,oracle-step,1000,1.0,-31.2855,0.8517,0.8283
+Chronos-Bolt,us_births/D,oracle-joint,1000,1.0,-31.2855,0.8517,0.8283
+Chronos-Bolt,us_births/W,"LoRA (4000, a=1)",4000,1.0,-5.7862,0.5,0.8304
+Chronos-Bolt,us_births/W,ES,4000,1.0,-5.7862,0.5,0.8304
+Chronos-Bolt,us_births/W,ES+guard,4000,1.0,-5.7862,0.5,0.8304
+Chronos-Bolt,us_births/W,A,4000,1.0,-5.7862,0.5,0.8304
+Chronos-Bolt,us_births/W,Joint,4000,1.0,-5.7862,0.5,0.8304
+Chronos-Bolt,us_births/W,ES+guard (no HF rule),4000,1.0,-5.7862,0.5,0.8304
+Chronos-Bolt,us_births/W,Joint (no HF rule),4000,1.0,-5.7862,0.5,0.8304
+Chronos-Bolt,us_births/W,Joint (B-style HF),4000,1.0,-5.7862,0.5,0.8304
+Chronos-Bolt,us_births/W,oracle-step,2000,1.0,-6.0922,0.5268,0.8393
+Chronos-Bolt,us_births/W,oracle-joint,4000,0.5,-8.1434,0.6696,0.8214
