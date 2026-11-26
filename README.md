@@ -1,8 +1,8 @@
-# When fine-tuning hurts: validation-guarded weight interpolation for time-series foundation models
+# Safe adaptation of time-series foundation models: a validation guard against harmful fine-tuning
 
 Code, executed notebooks, per-run results and the pre-registration log for the paper
 
-> S. Kumer and M. S. Hossain. *When fine-tuning hurts: validation-guarded weight interpolation for time-series foundation models.* Manuscript under review, 2026.
+> S. Kumer and M. S. Hossain. *Safe adaptation of time-series foundation models: a validation guard against harmful fine-tuning.* Manuscript under review, 2026.
 
 Fine-tuning a time-series foundation model (TSFM) on a small target dataset often makes it *worse* than the zero-shot model. The procedure studied here is a cheap safeguard:
 
